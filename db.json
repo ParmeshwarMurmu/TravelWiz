@@ -1,0 +1,191 @@
+{
+    "travel":[
+        {
+            "id": 1,
+            "image": "https://www.holidify.com/images/cmsuploads/square/shutterstock_1349545253_20190715095335.jpg",
+            "placeDescription": "The city is known for its magnificent palaces, temples, and forts, including the famous City Palace, which is a stunning blend of Rajasthani and Mughal architecture. The palace houses several museums showcasing the history and culture of the region.",
+            "image2": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1349545253_20190715095335.jpg",
+            "image3": "https://www.holidify.com/images/cmsuploads/compressed/110_20190710185439.jpg",
+            "image4": "https://www.holidify.com/images/bgImages/UDAIPUR.jpg",
+            "image5": "https://www.holidify.com/images/compressed/3140.jpg",
+            "city": "UdaiPur",
+            "state": "Rajasthan",
+            "country": "India",
+            "description1": "Udaipur is a city located in the western Indian state of Rajasthan, also known as the City of Lakes or the Venice of the East. It is a popular tourist destination famous for its rich cultural heritage, stunning architecture, beautiful lakes, and scenic landscapes.",
+            "description2": "The city was founded in 1559 by Maharana Udai Singh II, and it served as the capital of the Mewar kingdom. Udaipur is surrounded by the Aravalli Mountains and is situated on the banks of Lake Pichola, which is one of the most picturesque lakes in Rajasthan.",
+            "category": "National",
+            "price": "59999"
+
+        },
+
+        {
+            "id": 2,
+            "image": "https://www.holidify.com/images/tooltipImages/AGRA.jpg",
+            "placeDescription": "The most famous attraction in Agra is the Taj Mahal, a UNESCO World Heritage Site and one of the most recognizable structures in the world. The Taj Mahal was built in the 17th century by the Mughal emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, and it is considered to be one of the greatest examples of Mughal architecture.",
+            "image2": "https://www.holidify.com/images/bgImages/AGRA.jpg",
+            "image3": "https://www.holidify.com/images/compressed/3660.jpg?v=1.1",
+            "image4": "https://www.holidify.com/images/compressed/3669.jpg?v=1.1",
+            "image5": "https://www.holidify.com/images/compressed/3663.jpg?v=1.1",
+            "city": "Agra",
+            "state": "Uttar Pradesh",
+            "country": "India",
+            "description1": "Agra is a city located in the northern Indian state of Uttar Pradesh, famous for its rich Mughal heritage and iconic landmarks. The city is situated on the banks of the Yamuna river and is about 200 km from the national capital of Delhi.",
+            "description2": "Apart from the Taj Mahal, Agra is also home to several other historical landmarks, including the Agra Fort, another UNESCO World Heritage Site. The Agra Fort was built in the 16th century by the Mughal emperor Akbar and is a beautiful example of Mughal architecture.",
+            "category": "National",
+            "price": "4999"
+        },
+
+        {
+            "id": 3,
+            "image": "https://www.holidify.com/images/tooltipImages/DARJEELING.jpg",
+            "placeDescription": "Darjeeling is best known for its tea plantations, which produce some of the world's finest tea. Visitors can take a tour of the tea gardens and learn about the tea-making process while enjoying the beautiful scenery. The town is also home to several tea estates, including the famous Happy Valley Tea Estate, which has been producing high-quality tea since the 19th century.",
+            "image2": "https://www.holidify.com/images/bgImages/DARJEELING.jpg",
+            "image3": "https://www.holidify.com/images/cmsuploads/compressed/46522973564_3b46b2dde6_z_20190314150530.jpg",
+            "image4": "https://www.holidify.com/images/cmsuploads/compressed/11923714026_2cf86dbe3c_z_20190314150643.jpg",
+            "image5": "https://www.holidify.com/images/compressed/1139.jpg?v=1.1",
+            "city": "Darjeeling",
+            "state": "West Bengal",
+            "country": "India",
+            "description1": "Darjeeling is a town located in the Indian state of West Bengal, situated in the foothills of the Himalayas. It is a popular hill station and a well-known destination for tea tourism, offering breathtaking views of snow-capped mountains, lush green valleys, and rolling hills.",
+            "description2": "Apart from the tea gardens, Darjeeling is also known for its beautiful views of the Kanchenjunga mountain range, the third-highest mountain in the world. Visitors can take a ride on the Darjeeling Himalayan Railway, a UNESCO World Heritage Site and one of the most famous narrow-gauge railways in the world, to enjoy the stunning views.",
+            "category": "National",
+            "price": "69999"
+        },
+
+        {
+            "id": 4,
+            "image": "https://www.holidify.com/images/tooltipImages/KOLKATA.jpg",
+            "placeDescription": "Kolkata is known for its colonial architecture, particularly the Victorian buildings found in the city center. The most famous of these is the Victoria Memorial, a grand marble monument built in memory of Queen Victoria. The building now houses a museum with a vast collection of paintings, artifacts, and other objects of historical significance.",
+            "image2": "https://www.holidify.com/images/bgImages/KOLKATA.jpg",
+            "image3": "https://www.holidify.com/images/cmsuploads/compressed/victoria-memorial-3052473_960_720_20190312144747.jpg",
+            "image4": "https://www.holidify.com/images/compressed/dest_wiki_7188.jpg",
+            "image5": "https://www.holidify.com/images/compressed/dest_wiki_7156.jpg",
+            "city": "Kolkata",
+            "state": "West Bengal",
+            "country": "India",
+            "description1": "Kolkata (formerly known as Calcutta) is the capital city of the Indian state of West Bengal, located in the eastern part of the country. It is a vibrant and bustling city that is rich in culture, history, and art.",
+            "description2": "The city is also famous for its cultural and artistic heritage, particularly its literature and music. Kolkata is the birthplace of several renowned writers, including Rabindranath Tagore and Satyajit Ray. The city is also home to several iconic music venues, including the legendary Rangoli Cafe and the Rabindra Sadan auditorium.",
+            "category": "National",
+            "price": "3999"
+        },
+
+        {
+            "id": 5,
+            "image": "https://www.holidify.com/images/tooltipImages/GOA.jpg",
+            "placeDescription": "The most famous attraction in Goa is its beautiful beaches. The state is home to several stretches of sandy beaches, with some of the most popular ones being Calangute, Baga, Anjuna, and Colva. These beaches offer visitors the opportunity to sunbathe, swim, and indulge in water sports like parasailing and jet skiing.",
+            "image2": "https://www.holidify.com/images/bgImages/GOA.jpg",
+            "image3": "https://www.holidify.com/images/compressed/7691.jpg",
+            "image4": "https://www.holidify.com/images/cmsuploads/compressed/151278454_32201ed7e4_b_20190708174848.jpg",
+            "image5": "https://www.holidify.com/images/compressed/3201.jpg",
+            "city": "Goa",
+            "state": "Goa",
+            "country": "India",
+            "description1": "Goa is a small state located on the western coast of India, known for its pristine beaches, rich history, and vibrant culture. It is a popular tourist destination and attracts visitors from all over the world.",
+            "description2": "Goa is also known for its Portuguese heritage, which can be seen in its architecture, cuisine, and culture. The state was a Portuguese colony for over four centuries, and their influence can be seen in the colorful houses and buildings, as well as the local cuisine. Visitors can visit the UNESCO World Heritage Site of Old Goa to see some of the state's historic churches, including the famous Basilica of Bom Jesus.",
+            "category": "National",
+            "price": "7999"
+        },
+
+        {
+            "id": 6,
+            "image": "https://www.holidify.com/images/tooltipImages/KANYAKUMARI.jpg",
+            "placeDescription": "The most famous attraction in Kanyakumari is its beautiful sunrise and sunset views. Visitors can watch the sunrise over the Bay of Bengal and the sunset over the Arabian Sea from the same location, making it a unique experience. The best spot to view the sunrise and sunset is from the Vivekananda Rock Memorial, a statue and temple dedicated to the famous Hindu monk Swami Vivekananda.",
+            "image2": "https://www.holidify.com/images/bgImages/KANYAKUMARI.jpg",
+            "image3": "https://www.holidify.com/images/compressed/1459.jpg?v=1.1",
+            "image4": "https://www.holidify.com/images/compressed/1465.jpg?v=1.1",
+            "image5": "https://www.holidify.com/images/compressed/1467.jpg?v=1.1",
+            "city": "KanyaKumari",
+            "state": "Tamil Nadu",
+            "country": "India",
+            "description1": "Kanyakumari, also known as Cape Comorin, is a town located in the southernmost part of India, at the confluence of the Bay of Bengal, the Arabian Sea, and the Indian Ocean. It is a popular tourist destination and attracts visitors from all over the world.",
+            "description2": "Kanyakumari is also known for its religious significance, as it is home to several Hindu temples and churches. The most famous of these is the Kanyakumari Temple, dedicated to the goddess Kanyakumari, which is located on the southernmost tip of India. The town is also home to the St. Xavier's Church, a beautiful Gothic-style church that was built in the 19th century.",
+            "category": "National",
+            "price": "5999"
+        }
+        ,
+
+        {
+            "id": 7,
+            "image": "https://www.holidify.com/images/tooltipImages/TIRUNELVELI.jpg",
+            "placeDescription": "The city is also known for its natural beauty, with several waterfalls and dams located in and around the city. The Courtallam Falls, also known as the Spa of South India is one of the most famous waterfalls in the area and is renowned for its medicinal properties.",
+            "image2": "https://www.holidify.com/images/bgImages/TIRUNELVELI.jpg",
+            "image3": "https://www.holidify.com/images/compressed/135.jpg",
+            "image4": "https://www.holidify.com/images/compressed/131.JPG",
+            "image5": "https://www.holidify.com/images/compressed/129.jpg",
+            "city": " Tirunelveli",
+            "state": "Tamil Nadu",
+            "country": "India",
+            "description1": "Tirunelveli is a city located in the southern state of Tamil Nadu, India. It is the second-largest city in the region and is known for its rich cultural and historical heritage.",
+            "description2": "One of the most famous attractions in Tirunelveli is the Nellaiappar Temple, a Hindu temple dedicated to Lord Shiva. The temple is renowned for its beautiful architecture and is a popular pilgrimage site for devotees.",
+            "category": "National",
+            "price": "9999"
+        },
+
+        {
+            "id": 8,
+            "image": "https://www.holidify.com/images/tooltipImages/OOTY.jpg",
+            "placeDescription": "One of the most famous attractions in Ooty is the Nilgiri Mountain Railway, a UNESCO World Heritage Site. The train ride takes visitors through scenic hills and tea plantations and offers stunning views of the surrounding landscape.",
+            "image2": "https://www.holidify.com/images/bgImages/OOTY.jpg",
+            "image3": "https://www.holidify.com/images/cmsuploads/compressed/ootytoytrain_20190306160328.jpg",
+            "image4": "https://www.holidify.com/images/compressed/dest_wiki_15.jpg",
+            "image5": "https://www.holidify.com/images/cmsuploads/compressed/Rose_Garden_View_in_Ooty,_Tamil_Nadu_20180412163640.JPG",
+            "city": "Ooty",
+            "state": "Tamil Nadu",
+            "country": "India",
+            "description1": "Ooty, also known as Udhagamandalam, is a picturesque hill station located in the southern state of Tamil Nadu, India. It is known for its scenic beauty, pleasant weather, and tea plantations.",
+            "description2": "The city is also known for its beautiful gardens, including the Government Botanical Garden, which is home to several species of plants and flowers. Another popular garden in Ooty is the Rose Garden, which has over 20,000 varieties of roses.",
+            "category": "National",
+            "price": "11999"
+        },
+
+        {
+            "id": 9,
+            "image": "https://www.holidify.com/images/cmsuploads/square/shiva-4029469_960_720_20190327185127.jpg",
+            "placeDescription": "One of the most famous attractions in Coimbatore is the Marudamalai Temple, a Hindu temple dedicated to Lord Murugan. The temple is located on a hill and offers stunning views of the surrounding landscape.",
+            "image2": "https://www.holidify.com/images/bgImages/COIMBATORE.jpg",
+            "image3": "https://www.holidify.com/images/compressed/dest_wiki_3208.jpg",
+            "image4": "https://www.holidify.com/images/cmsuploads/compressed/Pollachi_hilly_landsacpe_20190527164239.jpg",
+            "image5": "https://www.holidify.com/images/cmsuploads/compressed/1200px-PERUR_PATTEESHWARAR_TEMPLE_20181017194424_20181017194443_20190814123016.jpg",
+            "city": "Coimbatore",
+            "state": "Tamil Nadu",
+            "country": "India",
+            "description1": "Coimbatore, also known as Kovai, is a city located in the southern state of Tamil Nadu, India. It is known for its industrial and commercial growth, as well as its rich cultural heritage.",
+            "description2": "The city is also known for its textile industry, and visitors can shop for silk and cotton fabrics at the numerous markets and stores located throughout the city.",
+            "category": "National",
+            "price": "6999"
+        },
+
+        {
+            "id": 10,
+            "image": "https://www.holidify.com/images/tooltipImages/SRINAGAR.jpg",
+            "placeDescription": "Another popular attraction in Kashmir is the Mughal Gardens, a group of terraced gardens located in Srinagar. The gardens were built in the 16th and 17th centuries and feature beautiful fountains, water channels, and flowering plants.",
+            "image2": "https://www.holidify.com/images/bgImages/SRINAGAR.jpg",
+            "image3": "https://www.holidify.com/images/compressed/1817.jpg?v=1.1",
+            "image4": "https://www.holidify.com/images/compressed/1819.jpg?v=1.1",
+            "image5": "https://www.holidify.com/images/compressed/1818.jpg?v=1.1",
+            "city": "Srinagar",
+            "state": "Jammu & Kashmir",
+            "country": "India",
+            "description1": "Kashmir is also famous for its handicrafts, including carpets, shawls, and papier-mâché products. Visitors can explore the markets and shops in Srinagar and other cities in the region to purchase these unique products.",
+            "description2": "The region is also known for its delicious cuisine, which features dishes like rogan josh, gushtaba, and wazwan. The cuisine is a blend of Kashmiri, Mughal, and Iranian influences and is characterized by the use of aromatic spices and herbs.",
+            "category": "National",
+            "price": "15999"
+        }
+    ],
+
+    "register": [
+        {
+            "id": 1,
+            "usrname": "Parmeshwar",
+            "password": "xyz",
+            "email": "murmuparmeshwar05@gmail.com"
+        },
+
+        {
+            "id": 2,
+            "usrname": "Raj",
+            "password": "12345",
+            "email": "raj@gmail.com"
+        }
+    ]
+}

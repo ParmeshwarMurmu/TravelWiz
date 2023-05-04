@@ -1,0 +1,133 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: azure;
+  font-family: "Lato", sans-serif;
+}
+.mainsection {
+  display: flex;
+}
+.row {
+  width: 20%;
+}
+.columnMain {
+  display: flex;
+}
+
+.card {
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+.card-body {
+  text-align: center;
+}
+.card:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.card-image {
+  height: 40vh;
+  background: #fff;
+  position: relative;
+  transition: 0.5 ease-in-out;
+}
+.card-image:hover {
+  transform: translateY(20px);
+}
+.card-image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(37, 168, 111, 0.5),
+    rgb(149, 200, 221)
+  );
+  z-index: 2;
+  transition: 0.5s all;
+  opacity: 0;
+}
+.card-image:hover:before {
+  opacity: 1;
+}
+.card-image > img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 5px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.card-image .card-desc {
+  position: relative;
+  z-index: 3;
+  color: rgb(0, 0, 0);
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+  padding: 12px;
+  text-align: justify;
+}
+.card-image:hover .card-desc {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.row {
+  padding: 5px;
+  padding-top: 20px;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.columnMain {
+  margin-right: 10px;
+}
+.column {
+  margin: auto;
+  border: 1px solid black;
+  text-align: center;
+}
+.card-price {
+  color: rgb(103, 90, 14);
+}
+.card-link {
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.card-link:hover {
+  background-color: orange;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.sort {
+  background-color: rgb(255, 204, 0);
+  border: none;
+  padding: 5px;
+}
+.filter {
+  background-color: rgb(255, 204, 0);
+  border: none;
+  padding: 5px;
+}
+.sort:hover {
+  cursor: pointer;
+  background-color: chartreuse;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.filter:hover {
+  cursor: pointer;
+  background-color: chartreuse;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}

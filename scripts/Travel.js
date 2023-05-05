@@ -94,3 +94,30 @@ function createCard(item) {
   card.append(imgDiv, card_body);
   return card;
 }
+//sort by price low to high
+sortLtoH.addEventListener("click", (e) => {
+  e.preventDefault();
+  fetch(`${TravelbaseUrl}?_sort=price&_order=asc`)
+    .then((res) => {
+      return res.json();
+    })
+    .then((data) => {
+      appendData(data);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});
+sortHtoL.addEventListener("click", (e) => {
+  e.preventDefault();
+  fetch(`${TravelbaseUrl}?_sort=price&_order=desc`)
+    .then((res) => {
+      return res.json();
+    })
+    .then((data) => {
+      appendData(data);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});

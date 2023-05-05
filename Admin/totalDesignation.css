@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg{
+    width:100vw;
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(200, 198, 198, 0.8)),url("https://wallpapertag.com/wallpaper/full/8/7/e/221119-travel-background-1920x1080-laptop.jpg");
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+.main{
+    width: 80%;
+    margin: auto;
+}
+
+.desiBody{
+    border: 2px solid red;
+    /* display: flex;
+    flex-wrap: wrap; */
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    
+}
+
+.card-body{
+    background-color: white;
+    
+}
+
+
+.image-div{
+    border: 2px solid blue;
+}
+
+.image-div > img{
+    width: 100%;
+}
+
+.para-description{
+    text-align: justify;
+    padding: 5px;
+}

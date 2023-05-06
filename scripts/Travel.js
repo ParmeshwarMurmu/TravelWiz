@@ -121,3 +121,29 @@ sortHtoL.addEventListener("click", (e) => {
       console.log(err);
     });
 });
+filterNationalTours.addEventListener("click", (e) => {
+  e.preventDefault();
+  fetch(`${TravelbaseUrl}?category=National`)
+    .then((res) => {
+      return res.json();
+    })
+    .then((data) => {
+      appendData(data);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});
+filterInternationalTours.addEventListener("click", (e) => {
+  e.preventDefault();
+  fetch(`${TravelbaseUrl}?category=InterNational`)
+    .then((res) => {
+      return res.json();
+    })
+    .then((data) => {
+      appendData(data);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});

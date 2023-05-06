@@ -3,33 +3,38 @@ let desiBody = document.querySelector(".desiBody");
 let tbody = document.querySelector("tbody");
 let pagination = document.querySelector(".pagination")
 
+let addDesignationSection = document.querySelector(".addDesignationSection")
+let addDesignationBtn = document.querySelector("#addDesignationBtn")
+
 // search
 let searchButton = document.getElementById("searchButton")
 let searchText = document.getElementById("searchText");
-
 let url = "http://localhost:3000/travel";
 
 window.addEventListener("load", ()=>{
-    calcLen()
+calcLen()
 fetchingData(1);
 })
 
 let len = 0;
 
 function calcLen(){
-    fetch(`${url}`)
+    fetch(`${url}?title=json-server&category=Inter National`)
     .then((res)=> res.json())
     .then((data)=>{
         totalDesignation.innerText = data.length;
         len = data.length;
     })
+
 }
 
 
+
 function fetchingData(pageNumber){
-    fetch(`${url}?_limit=5&_page=${pageNumber}`)
+    fetch(`${url}?_limit=5&_page=${pageNumber}?title=json-server&category=Inter National`)  //?_limit=6&_page=${pageNumber}`
     .then((res)=>{
         let totalData = len;
+        console.log(totalData, "&&")
         totalBtn = Math.ceil(totalData/5);
         pagination.innerHTML = "";
         for(let i=1; i<=totalBtn; i++)
@@ -39,8 +44,9 @@ function fetchingData(pageNumber){
         return res.json()
     })
     .then((data)=>{
-        console.group(data)
         appendData(data)
+        calcLen(data)
+        // internationalFilter(data)
     })
 }
 
@@ -88,13 +94,9 @@ function getCard(image, placeDescription, price, category, city)
     
     
     // let td2 = document.createElement("td");
-    let paraDiv = document.createElement("div")
-    paraDiv.classList.add("paraDiv");
     let para = document.createElement("p")
     para.classList.add("para-description");
     para.innerText = placeDescription;
-    paraDiv.append(para)
-
     // td2.append(para);
     
 
@@ -110,20 +112,18 @@ function getCard(image, placeDescription, price, category, city)
     btn.innerText = "Remove";
     // td4.append(btn)
 
-    let priceBtn = document.createElement("buton")
-    priceBtn.classList.add("priceBtn");
-    priceBtn.innerText = price;
-
     // tr.append(td1, td2, td3, td4);
 
-    let editBtn = document.createElement("buton")
-    editBtn.classList.add("editBtn");
-    editBtn.innerText = "Edit Price";
-
-    div.append(imgDiv, cityHead, btn, priceBtn, editBtn, paraDiv)
+    div.append(imgDiv, cityHead, btn, para)
 
     return div;
 }
+
+// addDesignationSection
+
+addDesignationBtn.addEventListener("click", ()=>{
+    addDesignationSection.style.display = "block";
+})
 
 
 searchButton.addEventListener("click", ()=>{

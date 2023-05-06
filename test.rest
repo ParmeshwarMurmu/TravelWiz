@@ -1,0 +1,8 @@
+GET http://localhost:3000/travel
+
+### GET /posts?title=json-server&author=typicode//
+
+GET http://localhost:3000/travel?title=json-server&category=Inter National
+
+### GET /posts?q=internet
+GET http://localhost:3000/travel?q=paris

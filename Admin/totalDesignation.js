@@ -119,7 +119,6 @@ function getCard(image, placeDescription, price, category, city)
     let editBtn = document.createElement("buton")
     editBtn.classList.add("editBtn");
     editBtn.innerText = "Edit Price";
-
     div.append(imgDiv, cityHead, btn, priceBtn, editBtn, paraDiv)
 
     return div;

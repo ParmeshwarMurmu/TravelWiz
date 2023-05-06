@@ -19,7 +19,7 @@ fetchingData(1);
 let len = 0;
 
 function calcLen(){
-    fetch(`${url}?title=json-server&category=Inter National`)
+    fetch(`${url}?title=json-server&category=InterNational`)
     .then((res)=> res.json())
     .then((data)=>{
         totalDesignation.innerText = data.length;
@@ -31,7 +31,7 @@ function calcLen(){
 
 
 function fetchingData(pageNumber){
-    fetch(`${url}?_limit=5&_page=${pageNumber}?title=json-server&category=Inter National`)  //?_limit=6&_page=${pageNumber}`
+    fetch(`${url}?_limit=5&_page=${pageNumber}?title=json-server&category=InterNational`)  //?_limit=6&_page=${pageNumber}`
     .then((res)=>{
         let totalData = len;
         console.log(totalData, "&&")

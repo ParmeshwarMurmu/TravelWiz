@@ -143,3 +143,17 @@ body {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+.pagination-wrapper {
+  display: flex;
+  border: 1px solid yellow;
+  margin: auto;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 10%;
+  gap: 8px;
+}
+.paginationBtn {
+  background-color: rgb(211, 240, 47);
+  text-align: center;
+}

@@ -24,17 +24,18 @@
     <div class="wrapper">
       <!-- Header -->
       <div class="navbar">
-        <div class="logo"><a href="">TravelWIZ</a></div>
+        <div class="logo"><a href=""><img src="/CSS/image/1-removebg-preview.png" alt=""></a></div>
         <label for="ham-menu" class="ham-menu-bar">
             <i class="fa fa-bars"></i>
         </label>
         <input type="checkbox" id="ham-menu" autocomplete="off">
         <ul>
-          <li><a href="">Home</a></li>
+          
           <li><a href="">Destination</a></li>
           <li><a href="">Booking</a></li>
           <li><a href="">About Us</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li><a href="login.html"><p id="username">Log In</p></a></li>
+          <li><a href="">Admin</a></li>
         </ul>
       </div>
     </div>
@@ -43,34 +44,34 @@
       <div class="image-container">
         <div class="image-list">
           <div class="image-item">
-            <div class="img1">PAYRAMID Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
-
-            </div>
             <img src="/CSS/image/payramid.jpg" alt="" />
+            <p class="img1">PAYRAMID Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
+
+            </p>
           </div>
           <div class="image-item">
-            <div class="img1">TAJ MAHAL Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
-
-            </div>
             <img src="/CSS/image/tajmahal.jpg" alt="" />
+            <p class="img1">TAJ MAHAL Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
+
+            </p>
           </div>
           <div class="image-item">
-            <div class="img1">RUSSIA Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
-
-            </div>
             <img src="/CSS/image/germany.jpg" alt="" />
+            <p class="img1">RUSSIA Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
+
+            </p>
           </div>
           <div class="image-item">
-            <div class="img1">GREEK Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
-
-            </div>
             <img src="/CSS/image/rome.jpg" alt="" />
+            <p class="img1">GREEK Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
+
+            </p>
           </div>
           <div class="image-item">
-            <div class="img1">MEXICO Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
-
-            </div>
             <img src="/CSS/image/mexico.jpg" alt="" />
+            <p class="img1">MEXICO Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
+
+            </p>
           </div>
         </div>
         <div class="image-btn-container">
@@ -83,11 +84,25 @@
       <div class="main">
 
           <div class="logoprod">
-            <img src="/CSS/image/TRAVELWIZ___1_-removebg-preview.png" alt="">
+            <h1>TravelWiz</h1>
+            <h3>HAPPY WEEKENDS</h3>
+            <h5>YOUR TRAVEL COMPANION</h5>
           </div>
       </div>
       
     </div>
+    <script>
+      let userss = JSON.parse(localStorage.getItem("use")) || [];
+      console.log(userss.username)
+      let p=document.getElementById("username");
+      if(userss.username==undefined){
+        p.innerText="Log In"
+      }else{
+
+        p.innerText=`Hello ${userss.username}`;
+      }
+    </script>
     <script src="/CSS/jscript.js"></script>
+    
   </body>
 </html>

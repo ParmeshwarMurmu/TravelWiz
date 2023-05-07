@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg{
+    width:100vw;
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(200, 198, 198, 0.8)),url("https://wallpapertag.com/wallpaper/full/8/7/e/221119-travel-background-1920x1080-laptop.jpg");
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+.addDesignationSection{
+    display: none;
+}
+
+#searchText{
+    font-size: 15px;
+}
+#searchButton{
+   
+    background-color: black;
+    font-size: 15px;
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+#searchButton:hover{
+    background-color: gray;
+    cursor: pointer;
+}

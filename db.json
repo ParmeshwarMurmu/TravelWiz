@@ -1,6 +1,22 @@
 {
   "travel": [
     {
+      "id": 16,
+      "image": "https://www.holidify.com/images/cmsuploads/compressed/buildings-1839726_960_720_20200104125623.jpg",
+      "placeDescription": "Dubai is one of the most popular destinations in the UAE, famous for its iconic landmarks like the Burj Khalifa (the world's tallest building), the Palm Jumeirah (an artificial island), and the Dubai Mall (one of the largest shopping malls in the world). Visitors can also experience traditional Arabian culture by visiting the Dubai Museum or the Gold and Spice Souks.",
+      "image2": "https://www.holidify.com/images/cmsuploads/compressed/Shawarma_8503517413_20200125112917.jpg",
+      "image3": "https://www.holidify.com/images/foreign/compressed/overview_1001.jpg",
+      "image4": "https://www.holidify.com/images/foreign/compressed/overview_1003.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/compressed/Sheikh_Zayed_Bridge_2_20200128164205.jpg",
+      "city": "UAE",
+      "state": "Asia",
+      "country": "Middle East",
+      "description1": "The United Arab Emirates (UAE) is a country located in the Middle East, consisting of seven emirates: Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah. The country is known for its modern cities, stunning architecture, luxurious shopping malls, and beautiful beaches.",
+      "description2": "Abu Dhabi, the capital of the UAE, is another popular destination that offers a blend of modern and traditional culture. Visitors can explore the Sheikh Zayed Grand Mosque, the Emirates Palace, and the Qasr Al Hosn fortress, which is the oldest stone building in Abu Dhabi.",
+      "category": "InterNational",
+      "price": 21999
+    },
+    {
       "id": 1,
       "image": "https://www.holidify.com/images/cmsuploads/square/shutterstock_1349545253_20190715095335.jpg",
       "placeDescription": "The city is known for its magnificent palaces, temples, and forts, including the famous City Palace, which is a stunning blend of Rajasthani and Mughal architecture. The palace houses several museums showcasing the history and culture of the region.",
@@ -33,6 +49,22 @@
       "price": 4999
     },
     {
+      "id": 13,
+      "image": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "placeDescription": "One of the most popular tourist destinations in Thailand is Bangkok, the capital city, which is known for its vibrant street life, iconic temples, and bustling markets. The city is home to several famous landmarks, including the Grand Palace, Wat Phra Kaew (Temple of the Emerald Buddha), and Wat Arun (Temple of Dawn).",
+      "image2": "https://www.holidify.com/images/cmsuploads/compressed/thailand-44288291280_20220512134103.jpg",
+      "image3": "https://www.holidify.com/images/cmsuploads/compressed/YaoYai2014december-panoramio7_20220512134323.jpg",
+      "image4": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_239928151_20200124101015.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/compressed/8502501095_23971e480e_b_20191119124136.jpg",
+      "city": "Bangkok",
+      "state": "South East Asia",
+      "country": "Thailand",
+      "description1": "Thailand is a country located in Southeast Asia, known for its stunning natural beauty, rich culture, and bustling cities. The country is home to beautiful beaches, lush rainforests, ancient temples, and vibrant markets.",
+      "description2": "Another popular destination in Thailand is Phuket, an island located in the Andaman Sea, which is known for its beautiful beaches, crystal-clear waters, and vibrant nightlife. Visitors can also explore the stunning Phi Phi Islands, which feature pristine beaches and turquoise waters.",
+      "category": "InterNational",
+      "price": 14999
+    },
+    {
       "id": 3,
       "image": "https://www.holidify.com/images/tooltipImages/DARJEELING.jpg",
       "placeDescription": "Darjeeling is best known for its tea plantations, which produce some of the world's finest tea. Visitors can take a tour of the tea gardens and learn about the tea-making process while enjoying the beautiful scenery. The town is also home to several tea estates, including the famous Happy Valley Tea Estate, which has been producing high-quality tea since the 19th century.",
@@ -49,6 +81,23 @@
       "price": 69999
     },
     {
+      "id": 20,
+      "image": "https://www.holidify.com/images/bgImages/TOKYO.jpg",
+      "placeDescription": "The city is a fascinating blend of modern technology and traditional culture, with towering skyscrapers and ancient temples standing side by side. Tokyo is known for its bustling streets, neon lights, and vibrant nightlife, with many famous districts like Shibuya, Shinjuku, and Roppongi offering a wide range of entertainment options.",
+      "image2": "https://www.holidify.com/images/compressed/dest_pixa_12549.jpg",
+      "image3": "https://www.holidify.com/images/compressed/dest_pixa_12550.jpg",
+      "image4": "https://www.holidify.com/images/compressed/dest_pixa_12551.jpg",
+      "image5": "https://www.holidify.com/images/compressed/dest_pixa_12553.jpg",
+      "city": "Tokyo",
+      "state": "South East Asia",
+      "country": "Japan",
+      "description1": "Tokyo is the capital city of Japan, located on the eastern coast of the island of Honshu. With a population of over 13 million people, it is one of the largest and most vibrant cities in the world",
+      "description2": "Tokyo is a food lover's paradise, with a wide range of cuisine on offer, from traditional Japanese dishes like sushi and ramen to international fare from around the world. The city is also famous for its shopping, with many world-renowned fashion brands and department stores located throughout the city.",
+      "category": "InterNational",
+      "price": 18999
+    },
+
+    {
       "id": 4,
       "image": "https://www.holidify.com/images/tooltipImages/KOLKATA.jpg",
       "placeDescription": "Kolkata is known for its colonial architecture, particularly the Victorian buildings found in the city center. The most famous of these is the Victoria Memorial, a grand marble monument built in memory of Queen Victoria. The building now houses a museum with a vast collection of paintings, artifacts, and other objects of historical significance.",
@@ -63,6 +112,22 @@
       "description2": "The city is also famous for its cultural and artistic heritage, particularly its literature and music. Kolkata is the birthplace of several renowned writers, including Rabindranath Tagore and Satyajit Ray. The city is also home to several iconic music venues, including the legendary Rangoli Cafe and the Rabindra Sadan auditorium.",
       "category": "National",
       "price": 3999
+    },
+    {
+      "id": 11,
+      "image": "https://www.holidify.com/images/foreign/compressed/overview_1622.jpg",
+      "placeDescription": "The most famous landmark in Paris is the Eiffel Tower, a wrought-iron tower that stands 324 meters tall and offers breathtaking views of the city. Visitors can take the elevator or climb the stairs to the top of the tower to enjoy the stunning panoramic views of Paris.",
+      "image2": "https://www.holidify.com/images/foreign/compressed/overview_1623.jpg",
+      "image3": "https://www.holidify.com/images/foreign/compressed/overview_1627.jpg",
+      "image4": "https://www.holidify.com/images/foreign/compressed/overview_1626.jpg",
+      "image5": "https://www.holidify.com/images/compressed/dest_wiki_12405.jpg",
+      "city": "Paris",
+      "state": "France",
+      "country": "France",
+      "description1": "Paris is the capital city of France and is widely regarded as one of the most beautiful and romantic cities in the world. It is known for its stunning architecture, art, culture, fashion, and cuisine.",
+      "description2": "Another famous attraction in Paris is the Louvre Museum, one of the largest and most famous museums in the world. It houses an extensive collection of art and artifacts from ancient times to the present day, including Leonardo da Vinci's famous painting, the Mona Lisa.",
+      "category": "InterNational",
+      "price": 29999
     },
     {
       "id": 5,
@@ -81,6 +146,23 @@
       "price": 7999
     },
     {
+      "id": 12,
+      "image": "https://www.holidify.com/images/bgImages/VIETNAM.jpg",
+      "placeDescription": "One of the most popular tourist destinations in Vietnam is Halong Bay, which features thousands of towering limestone islands and islets, making for a spectacular sight. Visitors can take a cruise on the bay to explore the caves, swim, and kayak among the karst formations.",
+      "image2": "https://www.holidify.com/images/cmsuploads/compressed/Vietnamese_food_20200123152638.jpg",
+      "image3": "https://www.holidify.com/images/cmsuploads/compressed/Binh_Quoi_people_rowing_20200123153948.JPG",
+      "image4": "https://www.holidify.com/images/cmsuploads/compressed/BinhQuoiBambooWaterWheel_Jun2005_20200123153043.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/compressed/AM-Tan-Phu-Celadon_20200124122623.jpg",
+      "city": "Vietnam",
+      "state": "South East Asia",
+      "country": "Vietnam",
+      "description1": "Vietnam is a country located in Southeast Asia, known for its rich history, culture, and natural beauty. The country is home to stunning landscapes, including rugged mountains, lush forests, pristine beaches, and rice paddies",
+      "description2": "Another popular attraction is the ancient town of Hoi An, which is a UNESCO World Heritage Site known for its well-preserved architecture and historical significance. The town features traditional houses, temples, and museums, and is a hub for traditional crafts like silk weaving, pottery, and lantern making.",
+      "category": "InterNational",
+      "price": 19999
+    },
+
+    {
       "id": 6,
       "image": "https://www.holidify.com/images/tooltipImages/KANYAKUMARI.jpg",
       "placeDescription": "The most famous attraction in Kanyakumari is its beautiful sunrise and sunset views. Visitors can watch the sunrise over the Bay of Bengal and the sunset over the Arabian Sea from the same location, making it a unique experience. The best spot to view the sunrise and sunset is from the Vivekananda Rock Memorial, a statue and temple dedicated to the famous Hindu monk Swami Vivekananda.",
@@ -95,6 +177,38 @@
       "description2": "Kanyakumari is also known for its religious significance, as it is home to several Hindu temples and churches. The most famous of these is the Kanyakumari Temple, dedicated to the goddess Kanyakumari, which is located on the southernmost tip of India. The town is also home to the St. Xavier's Church, a beautiful Gothic-style church that was built in the 19th century.",
       "category": "National",
       "price": 5999
+    },
+    {
+      "id": 17,
+      "image": "https://www.holidify.com/images/bgImages/SINGAPORE.jpg",
+      "placeDescription": "Singapore is also known for its vibrant food scene, with many hawker centers and street food stalls offering a wide range of local and international cuisine. Some popular dishes include chicken rice, laksa, and chili crab.",
+      "image2": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_789272446_20190923121604.png",
+      "image3": "https://www.holidify.com/images/cmsuploads/compressed/Resorts_World_Sentosa_viewed_from_the_Tiger_Sky_Tower2C_Sentosa2C_Singapore_-_20110131_20190606192041.jpg",
+      "image4": "https://www.holidify.com/images/cmsuploads/compressed/1024px-Sgzoo1_20190731175451.JPG",
+      "image5": "https://www.holidify.com/images/compressed/dest_pixa_22235.jpg",
+      "city": "Singapore",
+      "state": "Asia",
+      "country": "South East Asia",
+      "description1": "The city-state is home to many popular tourist attractions, including the Marina Bay Sands complex, which features a hotel, casino, shopping mall, and the iconic Marina Bay Sands Skypark, which offers stunning views of the city skyline. Other notable landmarks include the Merlion statue, which is a symbol of Singapore, and the Gardens by the Bay, which feature futuristic-looking supertrees and biodomes",
+      "description2": "Despite its small size, Singapore is also home to a rich cultural heritage, with influences from Chinese, Malay, Indian, and Western cultures. Visitors can explore historic neighborhoods like Chinatown, Little India, and Kampong Glam, which offer a glimpse into the city-state's diverse cultural landscape.",
+      "category": "InterNational",
+      "price": 13999
+    },
+    {
+      "id": 14,
+      "image": "https://www.holidify.com/images/tooltipImages/SAUDI-ARABIA.jpg",
+      "placeDescription": "Another popular destination in Saudi Arabia is Jeddah, a coastal city on the Red Sea that is known for its beautiful beaches, vibrant markets, and historic architecture. The city also serves as a gateway to the holy city of Mecca, which is the birthplace of Islam and a destination for millions of Muslim pilgrims each year.",
+      "image2": "https://www.holidify.com/images/foreign/compressed/overview_1707.jpg",
+      "image3": "https://www.holidify.com/images/foreign/compressed/overview_1708.jpg",
+      "image4": "https://www.holidify.com/images/foreign/compressed/overview_1710.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/compressed/A_Last_day_of_Hajj_-_all_pilgrims_leaving_Mina_many_already_in_Mecca_for_farewell_circumambulation_of_Kaaba_-_Flickr_-_Al_Jazeera_English_20190507101521.jpg",
+      "city": "Riyadh",
+      "state": "Saudi Arabia",
+      "country": "Middle East",
+      "description1": "Saudi Arabia is a country located in the Middle East, known for its rich cultural heritage, vibrant cities, and vast deserts. The country is home to many significant Islamic religious sites, including the cities of Mecca and Medina.",
+      "description2": "Saudi Arabia is also home to vast desert landscapes, including the Rub' al Khali (Empty Quarter), which is the largest continuous sand desert in the world. Visitors can explore the desert on camelback or in a 4x4 vehicle, and experience the traditional Bedouin way of life.",
+      "category": "InterNational",
+      "price": 24999
     },
     {
       "id": 7,
@@ -112,6 +226,23 @@
       "category": "National",
       "price": 9999
     },
+    
+    {
+      "id": 15,
+      "image": "https://www.holidify.com/images/tooltipImages/CAMBODIA.jpg",
+      "placeDescription": "One of the most popular tourist destinations in Cambodia is the ancient temple complex of Angkor Wat, which is a UNESCO World Heritage Site and one of the largest religious monuments in the world. Visitors can explore the temples and ruins of the Khmer Empire, which date back to the 12th century and feature intricate carvings and beautiful architecture.",
+      "image2": "https://www.holidify.com/images/bgImages/CAMBODIA.jpg",
+      "image3": "https://www.holidify.com/images/cmsuploads/compressed/Angkor_Wat_20191115165341.jpg",
+      "image4": "https://www.holidify.com/images/cmsuploads/compressed/Song_Saa__samjamphoto_-12_20191201195855.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/compressed/800px-Chrey_Thom_Waterfall_Mondulkiri_20191211132415.jpg",
+      "city": "Cambodia",
+      "state": "Asia",
+      "country": "South East Asia",
+      "description1": "Another popular destination in Cambodia is the capital city of Phnom Penh, which is known for its lively street markets, beautiful colonial architecture, and historical sites. Visitors can explore the Royal Palace, the National Museum, and the Killing Fields, which provide insights into Cambodia's dark past during the Khmer Rouge regime..",
+      "description2": "Cambodia is a country located in Southeast Asia, known for its rich history, culture, and stunning natural beauty. The country is home to ancient temples, lush forests, beautiful beaches, and vibrant cities.",
+      "category": "InterNational",
+      "price": 11999
+    },
     {
       "id": 8,
       "image": "https://www.holidify.com/images/tooltipImages/OOTY.jpg",
@@ -127,6 +258,22 @@
       "description2": "The city is also known for its beautiful gardens, including the Government Botanical Garden, which is home to several species of plants and flowers. Another popular garden in Ooty is the Rose Garden, which has over 20,000 varieties of roses.",
       "category": "National",
       "price": 11999
+    },
+    {
+      "id": 18,
+      "image": "https://www.holidify.com/images/tooltipImages/CHICAGO.jpg",
+      "placeDescription": "Chicago is famous for its architecture, with many iconic buildings like the Willis Tower (formerly known as the Sears Tower), the John Hancock Center, and the Tribune Tower. The city is also home to many museums, including the Art Institute of Chicago, the Field Museum, and the Museum of Science and Industry.",
+      "image2": "https://www.holidify.com/images/compressed/dest_pixa_5503.jpg",
+      "image3": "https://www.holidify.com/images/foreign/compressed/overview_1238.jpg",
+      "image4": "https://www.holidify.com/images/compressed/dest_pixa_5504.jpg",
+      "image5": "https://www.holidify.com/images/compressed/dest_pixa_5502.jpg",
+      "city": "Chicago",
+      "state": "North America",
+      "country": "United States",
+      "description1": "Chicago is a vibrant city located in the state of Illinois in the United States. It is the third-largest city in the country and is known for its stunning skyline, rich history, and diverse culture.",
+      "description2": "The food scene in Chicago is diverse and celebrated, with the city being known for its deep-dish pizza, hot dogs, and Italian beef sandwiches. Visitors can explore the many restaurants, bars, and cafes in neighborhoods like Chinatown, Little Italy, and Wicker Park.",
+      "category": "InterNational",
+      "price": 15999
     },
     {
       "id": 9,
@@ -159,26 +306,31 @@
       "description2": "The region is also known for its delicious cuisine, which features dishes like rogan josh, gushtaba, and wazwan. The cuisine is a blend of Kashmiri, Mughal, and Iranian influences and is characterized by the use of aromatic spices and herbs.",
       "category": "National",
       "price": 15999
+    },
+   
+    {
+      "id": 19,
+      "image": "https://www.holidify.com/images/compressed/dest_pixa_12554.jpg",
+      "placeDescription": "The city is famous for its vibrant nightlife, with many world-renowned casinos and resorts located along the famous Las Vegas Strip. Visitors can enjoy a wide range of entertainment options, including live music, comedy shows, magic performances, and Cirque du Soleil productions.",
+      "image2": "https://www.holidify.com/images/compressed/dest_pixa_12549.jpg",
+      "image3": "https://www.holidify.com/images/compressed/dest_pixa_12550.jpg",
+      "image4": "https://www.holidify.com/images/compressed/dest_pixa_12551.jpg",
+      "image5": "https://www.holidify.com/images/compressed/dest_pixa_12553.jpg",
+      "city": "Las Vegas",
+      "state": "North America",
+      "country": "United States",
+      "description1": "Las Vegas is a city located in the state of Nevada in the southwestern United States. It is often referred to as the Entertainment Capital of the World due to its numerous casinos, hotels, and entertainment venues.",
+      "description2": "Overall, Las Vegas is a dynamic and exciting city that offers visitors a unique blend of luxury, entertainment, and natural beauty. With its world-class casinos, extravagant resorts, and wide range of attractions, Las Vegas is a must-visit destination for anyone traveling to the United States",
+      "category": "InterNational",
+      "price": 17999
     }
   ],
   "register": [
-    {
-      "id": 1,
-      "username": "Parmeshwar",
-      "password": "xyz",
-      "email": "murmuparmeshwar05@gmail.com"
-    },
     {
       "id": 2,
       "username": "Raj",
       "password": "12345",
       "email": "raj@gmail.com"
-    },
-    {
-      "id": 4,
-      "username": "Sanjay",
-      "password": "9934",
-      "email": "sanjay@gmail.com"
     },
     {
       "id": 8,

@@ -41,6 +41,8 @@ GET /travel?title=json-server&category=InterNational
 GET /travel?title=json-server&category=National
 
 ```
+![filter](https://user-images.githubusercontent.com/121368970/236733570-6710a31d-671e-4e9b-9f7f-99e271b11802.png)
+
 
 ## Pagination
 Use ```_page``` And Optionally ```_limit``` To Paginate Returned Data

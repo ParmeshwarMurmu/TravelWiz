@@ -2,7 +2,7 @@ body {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  background-color: azure;
+  background-color: rgb(223, 222, 222);
   font-family: "Lato", sans-serif;
 }
 .mainsection {

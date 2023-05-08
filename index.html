@@ -33,9 +33,9 @@
           
           <li><a href="">Destination</a></li>
           <li><a href="">Booking</a></li>
-          <li><a href="">About Us</a></li>
+          <li><a href="/About/about.html">About Us</a></li>
           <li><a href="login.html"><p id="username">Log In</p></a></li>
-          <li><a href="">Admin</a></li>
+          <li ><a id="admin" href="">Admin</a></li>
         </ul>
       </div>
     </div>
@@ -92,15 +92,15 @@
       
     </div>
     <script>
-      let userss = JSON.parse(localStorage.getItem("use")) || [];
-      console.log(userss.username)
+      let admin=document.getElementById("admin")
+      let userss = (localStorage.getItem("username")) ||"";
       let p=document.getElementById("username");
-      if(userss.username==undefined){
-        p.innerText="Log In"
-      }else{
-
-        p.innerText=`Hello ${userss.username}`;
+      // console.log(userss.username)
+      if(userss!=""){
+        p.innerText=`Hello ${userss}`;
+        admin.style.display="none";
       }
+     
     </script>
     <script src="/CSS/jscript.js"></script>
     

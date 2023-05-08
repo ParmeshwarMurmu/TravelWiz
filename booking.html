@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parentBooking {
+        border: 1px solid black;
+        display: flex;
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+      }
+      .sidedesc {
+        border: 1px solid red;
+        width: 30%;
+      }
+
+      .mainsectionb {
+        border: 1px solid green;
+
+        width: 65%;
+      }
+      .card-image2 > img {
+        width: 60%;
+      }
+
+      .img-parent {
+        border: 1px solid red;
+        display: flex;
+      }
+
+      .img-parent > div {
+        margin: 10px;
+      }
+
+      .img-parent > div:hover {
+        transform: scale(1.2);
+      }
+
+      .img-s1 {
+        width: 15%;
+        border: 2px solid rgb(12, 247, 255);
+      }
+
+      .img-s1 > img {
+        width: 100%;
+      }
+
+      .img-s2 {
+        width: 15%;
+      }
+
+      .img-s2 > img {
+        width: 100%;
+      }
+
+      .img-s3 {
+        width: 15%;
+
+        border: 2px solid rgb(12, 247, 255);
+      }
+
+      .img-s3 > img {
+        width: 100%;
+      }
+
+      .img-s4 {
+        width: 15%;
+
+        border: 2px solid rgb(12, 247, 255);
+      }
+
+      .img-s4 > img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bookingHead">
+      <h1>Explore Recomended Top Destinations</h1>
+    </div>
+    <hr />
+    <div class="parentBooking">
+      <div class="sidedesc"></div>
+      <div class="mainsectionb"></div>
+    </div>
+  </body>
+  <script>
+    let sidedesc = document.querySelector(".sidedesc");
+    let mainsectionb = document.querySelector(".mainsectionb");
+
+    let bookurl = "http://localhost:3000/travel";
+    let id = localStorage.getItem("travel-id");
+    let userBookedId = JSON.parse(localStorage.getItem("userBookedId"));
+    console.log(id);
+    function fetchData() {
+      fetch(`${bookurl}/${id}`)
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          console.log(data);
+          sideCard(data);
+          createCard(data);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    }
+    fetchData();
+    function sideCard(ele) {
+      let sideCard = document.createElement("div");
+      sideCard.className = "side-card";
+
+      let sCountry = document.createElement("h4");
+      sCountry.className = "side-country";
+      sCountry.textContent = ele.country;
+
+      let sState = document.createElement("h5");
+      sState.className = "side-country";
+      sState.textContent = ele.state;
+
+      let sDesc1 = document.createElement("p");
+      sDesc1.className = "side-desc1";
+      sDesc1.textContent = ele.description1;
+
+      let sDesc2 = document.createElement("p");
+      sDesc2.className = "side-desc2";
+      sDesc2.textContent = ele.description2;
+
+      sideCard.append(sCountry, sState, sDesc1, sDesc2);
+      sidedesc.append(sideCard);
+    }
+    function createCard(item) {
+      let card = document.createElement("div");
+      card.className = "card";
+      let h3 = document.createElement("h3");
+      h3.className = "head-main";
+      h3.textContent = item.city;
+
+      let para = document.createElement("p");
+      para.className = "para-p";
+      para.textContent = item.placeDescription;
+
+      let btn1 = document.createElement("button");
+      btn1.className = "button-book";
+      btn1.textContent = "Book Now";
+
+      btn1.addEventListener("click", () => {
+        userBookedId.push(item.id);
+      });
+
+      let btn2 = document.createElement("button");
+      btn2.className = "button-details";
+      btn2.textContent = "View Details";
+
+      let imgDiv = document.createElement("div");
+      imgDiv.className = "card-image2";
+      let img = document.createElement("img");
+      img.src = item.image;
+      img.setAttribute("alt", "image");
+      imgDiv.append(img);
+
+      let divImgP = document.createElement("div");
+      divImgP.className = "img-parent";
+
+      let divImgs1 = document.createElement("div");
+      divImgs1.className = "img-s1";
+      let imgs1 = document.createElement("img");
+      imgs1.src = item.image2;
+      imgs1.setAttribute("alt", "image");
+      divImgs1.append(imgs1);
+
+      imgs1.addEventListener("click", () => {
+        img.src = item.image2;
+      });
+
+      let divImgs2 = document.createElement("div");
+      divImgs2.className = "img-s2";
+      let imgs2 = document.createElement("img");
+      imgs2.src = item.image3;
+      imgs2.setAttribute("alt", "image");
+      divImgs2.append(imgs2);
+
+      imgs2.addEventListener("click", () => {
+        img.src = item.image3;
+      });
+
+      let divImgs3 = document.createElement("div");
+      divImgs3.className = "img-s3";
+      let imgs3 = document.createElement("img");
+      imgs3.src = item.image4;
+      imgs3.setAttribute("alt", "image");
+      divImgs3.append(imgs3);
+
+      imgs3.addEventListener("click", () => {
+        img.src = item.image4;
+      });
+
+      let divImgs4 = document.createElement("div");
+      divImgs4.className = "img-s4";
+      let imgs4 = document.createElement("img");
+      imgs4.src = item.image5;
+      imgs4.setAttribute("alt", "image");
+      divImgs4.append(imgs4);
+
+      imgs4.addEventListener("click", () => {
+        img.src = item.image5;
+      });
+
+      divImgP.append(divImgs1, divImgs2, divImgs3, divImgs4);
+
+      card.append(h3, para, btn1, btn2, imgDiv, divImgP);
+      mainsectionb.append(card);
+    }
+  </script>
+</html>

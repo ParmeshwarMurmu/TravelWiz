@@ -6,8 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Product Page</title>
     <link rel="stylesheet" href="./Css Travel/Travel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <div class="navbar">
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./Css Travel/1-removebg-preview.png" alt=""
+          /></a>
+        </div>
+        <label for="ham-menu" class="ham-menu-bar">
+          <i class="fa fa-bars"></i>
+        </label>
+        <input type="checkbox" id="ham-menu" autocomplete="off" />
+        <ul>
+          <li><a href="">Destination</a></li>
+          <li><a href="">Booking</a></li>
+          <li><a href="">About Us</a></li>
+          <li>
+            <a href="login.html"><p id="username">Log In</p></a>
+          </li>
+          <li><a href="">Admin</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="wholepage">
       <div class="container">
         <div class="column">
@@ -17,8 +51,8 @@
             Destination
           </p>
           <div class="search-box">
-            <input type="text" placeholder="Search..." id="tsearch" />
-            <button id="btns">Search</button>
+            <input type="text" placeholder=" Search Destiny..." id="tsearch" />
+            <button id="btns"><p>🔎</p></button>
           </div>
         </div>
       </div>
@@ -30,13 +64,13 @@
             <hr />
             <button id="htl" class="sort">Sort High To Low</button>
 
-            <h4>Filter Based On Location</h4>
+            <h4 id="flt">Filter Based On Location</h4>
             <button id="filter-National-tours" class="filter">
-              National-tours
+              National Tours
             </button>
             <hr />
             <button id="filter-International-tours" class="filter">
-              International-tours
+              International Tours
             </button>
           </div>
         </div>

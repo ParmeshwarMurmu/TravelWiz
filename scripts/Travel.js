@@ -74,7 +74,7 @@ function createCard(item) {
 
   let country = document.createElement("h3");
   country.className = "card-country";
-  country.textContent = `⚐${item.country}`;
+  country.textContent = `⚐ ${item.country}`;
 
   let category = document.createElement("div");
   category.className = "card-category";
@@ -89,10 +89,14 @@ function createCard(item) {
   let br3 = document.createElement("br");
 
   let a = document.createElement("a");
-  a.href = "#";
+  a.href = "booking.html";
+
   a.setAttribute("data-name", item.city);
   a.className = "card-link";
   a.textContent = "Show More";
+  a.addEventListener("click", () => {
+    localStorage.setItem("travel-id", item.id);
+  });
 
   card_body.append(city, state, country, category, br2, priceDiv, br3, a);
   card.append(imgDiv, card_body);

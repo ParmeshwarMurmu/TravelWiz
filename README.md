@@ -80,3 +80,11 @@ GET /travel?q=InterNational
 # Home Page
 ![Home Page](https://user-images.githubusercontent.com/121368970/236737986-e27cfe27-1294-433f-973d-de8d3c217053.png)
 
+# Sign Up and Login
+![sign up](https://user-images.githubusercontent.com/121368970/236738769-e28ebf0e-3394-44a2-a13d-20614f3ee36d.png)
+![login page](https://user-images.githubusercontent.com/121368970/236738809-5a022269-fde5-4249-9145-74e88c75c4db.png)
+
+
+# Destination Page
+![designation page](https://user-images.githubusercontent.com/121368970/236739322-e25a55a4-61aa-4780-9588-a6be9aaf79ac.png)
+

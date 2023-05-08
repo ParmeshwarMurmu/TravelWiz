@@ -96,7 +96,6 @@
       "category": "InterNational",
       "price": 18999
     },
-
     {
       "id": 4,
       "image": "https://www.holidify.com/images/tooltipImages/KOLKATA.jpg",
@@ -161,7 +160,6 @@
       "category": "InterNational",
       "price": 19999
     },
-
     {
       "id": 6,
       "image": "https://www.holidify.com/images/tooltipImages/KANYAKUMARI.jpg",
@@ -226,7 +224,6 @@
       "category": "National",
       "price": 9999
     },
-    
     {
       "id": 15,
       "image": "https://www.holidify.com/images/tooltipImages/CAMBODIA.jpg",
@@ -307,7 +304,6 @@
       "category": "National",
       "price": 15999
     },
-   
     {
       "id": 19,
       "image": "https://www.holidify.com/images/compressed/dest_pixa_12554.jpg",
@@ -355,6 +351,18 @@
       "username": "Annaya",
       "password": "9934",
       "email": "annaya@gmail.com"
+    },
+    {
+      "username": "chandan",
+      "password": "123",
+      "email": "cs95335@gmail.com",
+      "id": 17
+    },
+    {
+      "username": "sanjay parmeshwar",
+      "password": "123",
+      "email": "sj12345@gmail.com",
+      "id": 18
     }
   ]
 }

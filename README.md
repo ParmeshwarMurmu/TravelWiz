@@ -51,6 +51,9 @@ GET /travel?_page=3
 GET /travel?_limit=5&_page=3
 ```
 
+![Pagination](https://user-images.githubusercontent.com/121368970/236737298-1748005d-2c41-4712-9222-bfe61bbc8b4a.png)
+
+
 
 ## Sort
 Add ```_sort And ```_order```(Ascending Order By Default)
@@ -71,3 +74,4 @@ GET /travel?q=paris
 GET /travel?q=goa
 GET /travel?q=InterNational
 ```
+![search](https://user-images.githubusercontent.com/121368970/236736770-2561e66d-737a-45c0-baf4-134abe65e8d5.png)

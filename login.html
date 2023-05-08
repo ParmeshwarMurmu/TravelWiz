@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login | By Code Info</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>Login</h1>
+      <form>
+        <label>Email</label>
+        <input type="email" placeholder="" id="email" />
+        <label>Password</label>
+        <input type="password" placeholder="" id="password" />
+        <input type="submit" value="Submit" />
+        <closeform></closeform>
+      </form>
+      <p class="para-2" style="display: flex">
+        Not have an account? <a href="signup.html">Sign Up Here</a>
+      </p>
+    </div>
+  </body>
+  <script>
+    let form = document.querySelector("form");
+    let userData = JSON.parse(localStorage.getItem("users")) || [];
+    let userss = JSON.parse(localStorage.getItem("use")) || [];
+
+    let flag = false;
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      for (let i = 0; i < userData.length; i++) {
+        {
+          if (
+            form.email.value === userData[i].email &&
+            form.password.value === userData[i].password
+          ) {
+            flag = true;
+
+            used = userData[i];
+            localStorage.removeItem("use");
+            localStorage.setItem("use", JSON.stringify(used));
+            window.location.assign("index.html");
+            // window.history.go(-2);
+            break;
+          }
+        }
+      }
+      if (flag == false) alert("Please Fill The valid Input");
+    });
+  </script>
+</html>

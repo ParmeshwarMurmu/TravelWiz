@@ -1,10 +1,10 @@
 let totalDesignation = document.getElementById("totalDesignation");
 let desiBody = document.querySelector(".desiBody");
 let tbody = document.querySelector("tbody");
-let pagination = document.querySelector(".pagination")
+let pagination = document.querySelector(".pagination");
 
 // search
-let searchButton = document.getElementById("searchButton")
+let searchButton = document.getElementById("searchButton");
 let searchText = document.getElementById("searchText");
 
 let updatePriceDiv = document.getElementsByClassName("updatePriceDiv");
@@ -22,7 +22,9 @@ let url = "http://localhost:3000/travel";
 calcLen()
 fetchingData();
 
+
 // let len = 0;
+
 
 function calcLen(){
     fetch(`${url}`)
@@ -54,7 +56,26 @@ function fetchingData(pageNumber){
         // console.group(data)
         appendData(data, pageNumber)
         
+
+
     })
+    .then((data) => {
+      console.group(data);
+      appendData(data);
+    });
+}
+
+function getBtn(i) {
+  let btn = document.createElement("button");
+  btn.classList.add("paginationBtn");
+  btn.innerText = i;
+  btn.setAttribute("data-id", i);
+
+  btn.addEventListener("click", (e) => {
+    // console.log(e.target.dataset.id);
+    fetchingData(e.target.dataset.id);
+  });
+  return btn;
 }
 
 
@@ -74,9 +95,29 @@ function getBtn(i){
     return btn;
 }
 
+function getCard(image, placeDescription, price, category, city) {
+  let div = document.createElement("div");
+  div.classList.add("card-body");
+  // let tr = document.createElement("tr");
 
+  // let td1 = document.createElement("td");
+  let imgDiv = document.createElement("div");
+  imgDiv.classList.add("image-div");
 
+  let img = document.createElement("img");
+  img.setAttribute("src", image);
+  imgDiv.append(img);
+  // td1.append(imgDiv)
 
+  // let td2 = document.createElement("td");
+  let paraDiv = document.createElement("div");
+  paraDiv.classList.add("paraDiv");
+  let para = document.createElement("p");
+  para.classList.add("para-description");
+  para.innerText = placeDescription;
+  paraDiv.append(para);
+
+  // td2.append(para);
 
 
 function appendData(data, pageNumber)

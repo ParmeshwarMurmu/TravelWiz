@@ -12,6 +12,54 @@ body{
     position:relative;
 }
 
+#searchText{
+    margin-bottom: 10px;
+}
+
+#addDesignationBtn{
+    font-size: 15px;
+    border: none;
+}
+
+#addDesignationBtn:hover{
+    background-color: gray;
+    color: aliceblue;
+  
+    cursor: pointer;
+}
+
+#submit{
+    display: block;
+    margin: auto;
+    border: none;
+}
+
+#submit:hover{
+    background-color: rgb(128, 128, 128);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
 .addDesignationSection{
     display: none;
+    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    width: 17%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+    
+
+}
+
+.addDesignationSection input{
+    display: block;
+    margin: 10px;
+    font-size: 15px;
+
 }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up | By Code Info</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+      <h4>Please Fill The Valid Data</h4>
+      <form>
+        <label>User Name</label>
+        <input type="text" placeholder="" id="username" />
+        <label>Email</label>
+        <input type="email" placeholder="" id="email" />
+
+        <label> Password</label>
+        <input type="password" placeholder="" id="password" />
+        <input type="submit" value="Submit" />
+        <!-- <closeform></closeform> -->
+      </form>
+      <p>
+        By clicking the Sign Up button,you agree to our <br />
+        <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+      </p>
+      <p class="para-2">
+        Already have an account? <a href="login.html">Login here</a>
+      </p>
+    </div>
+  </body>
+  <script>
+    let form = document.querySelector("form");
+    let users = JSON.parse(localStorage.getItem("users")) || [];
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      let user;
+      if (
+        form.username.value == "" ||
+        form.email.value == "" ||
+        form.password.value == ""
+      ) {
+        alert("please fill all the details");
+      } else {
+        user = {
+          username: form.username.value,
+          email: form.email.value,
+          password: form.password.value,
+        };
+        console.log(user);
+        users.push(user);
+        localStorage.setItem("users", JSON.stringify(users));
+        form.username.value = "";
+        form.email.value = "";
+        form.password.value = "";
+      }
+    });
+  </script>
+</html>

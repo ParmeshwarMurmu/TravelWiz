@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      
+    />
+     <!--Google font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+       rel="stylesheet"
+     />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/CSS/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <div class="navbar">
+        <div class="logo"><a href=""><img src="/CSS/image/1-removebg-preview.png" alt=""></a></div>
+        <label for="ham-menu" class="ham-menu-bar">
+            <i class="fa fa-bars"></i>
+        </label>
+        <input type="checkbox" id="ham-menu" autocomplete="off">
+        <ul>
+          
+          <li><a href="">Destination</a></li>
+          <li><a href="address.html">Booking</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="login.html"><p id="username">Log In</p></a></li>
+          <li><a href="">Admin</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- slider home -->
+    <div>
+      <div class="image-container">
+        <div class="image-list">
+          <div class="image-item">
+            <img src="/CSS/image/payramid.jpg" alt="" />
+            <p class="img1">PAYRAMID Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
+
+            </p>
+          </div>
+          <div class="image-item">
+            <img src="/CSS/image/tajmahal.jpg" alt="" />
+            <p class="img1">TAJ MAHAL Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
+
+            </p>
+          </div>
+          <div class="image-item">
+            <img src="/CSS/image/germany.jpg" alt="" />
+            <p class="img1">RUSSIA Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
+
+            </p>
+          </div>
+          <div class="image-item">
+            <img src="/CSS/image/rome.jpg" alt="" />
+            <p class="img1">GREEK Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
+
+            </p>
+          </div>
+          <div class="image-item">
+            <img src="/CSS/image/mexico.jpg" alt="" />
+            <p class="img1">MEXICO Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam at iusto impedit laborum, earum eius?
+
+            </p>
+          </div>
+        </div>
+        <div class="image-btn-container">
+
+            <button class="slider-btn" id="slide-btn-left"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="slider-btn" id="slide-btn-right"><i class="fa-solid fa-chevron-right"></i></i></button>
+        </div>
+      </div>
+      <!-- travelwizlogo -->
+      <div class="main">
+
+          <div class="logoprod">
+            <h1>TravelWiz</h1>
+            <h3>HAPPY WEEKENDS</h3>
+            <h5>YOUR TRAVEL COMPANION</h5>
+          </div>
+      </div>
+      
+    </div>
+    <script>
+      let userss = JSON.parse(localStorage.getItem("use")) || [];
+      console.log(userss.username)
+      let p=document.getElementById("username");
+      if(userss.username==undefined){
+        p.innerText="Log In"
+      }else{
+
+        p.innerText=`Hello ${userss.username}`;
+      }
+    </script>
+    <script src="/CSS/jscript.js"></script>
+    
+  </body>
+</html>

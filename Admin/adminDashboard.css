@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.bg{
+    /* width: 100%;
+    height: 713px; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px; */
+    /* opacity: 0.5; */
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width:100vw;
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(200, 198, 198, 0.8)),url("https://wallpapertag.com/wallpaper/full/8/7/e/221119-travel-background-1920x1080-laptop.jpg");
+    background-position: center;
+    background-size: cover;
+    position:relative;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid black; */
+    margin: 20px;
+}
+
+.userImageDiv{
+    width: 100%;
+}
+
+.totalUser img{
+    width: 100%;
+}
+
+.destinationImageDiv {
+width: 100%;
+}
+
+.destinationImageDiv > img{
+    width: 98%;
+    
+}
+
+.internationalImageDiv > img{
+    width: 100%;
+}
+
+.nationalImageDiv{
+    width: 100%;
+}
+
+.nationalImageDiv > img{
+    width: 100%;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.items:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}

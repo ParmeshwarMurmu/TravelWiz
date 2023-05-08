@@ -14,7 +14,7 @@
       "description1": "The United Arab Emirates (UAE) is a country located in the Middle East, consisting of seven emirates: Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah. The country is known for its modern cities, stunning architecture, luxurious shopping malls, and beautiful beaches.",
       "description2": "Abu Dhabi, the capital of the UAE, is another popular destination that offers a blend of modern and traditional culture. Visitors can explore the Sheikh Zayed Grand Mosque, the Emirates Palace, and the Qasr Al Hosn fortress, which is the oldest stone building in Abu Dhabi.",
       "category": "InterNational",
-      "price": 21999
+      "price": "233"
     },
     {
       "id": 1,
@@ -30,7 +30,7 @@
       "description1": "Udaipur is a city located in the western Indian state of Rajasthan, also known as the City of Lakes or the Venice of the East. It is a popular tourist destination famous for its rich cultural heritage, stunning architecture, beautiful lakes, and scenic landscapes.",
       "description2": "The city was founded in 1559 by Maharana Udai Singh II, and it served as the capital of the Mewar kingdom. Udaipur is surrounded by the Aravalli Mountains and is situated on the banks of Lake Pichola, which is one of the most picturesque lakes in Rajasthan.",
       "category": "National",
-      "price": 59999
+      "price": "2334"
     },
     {
       "id": 2,
@@ -46,7 +46,7 @@
       "description1": "Agra is a city located in the northern Indian state of Uttar Pradesh, famous for its rich Mughal heritage and iconic landmarks. The city is situated on the banks of the Yamuna river and is about 200 km from the national capital of Delhi.",
       "description2": "Apart from the Taj Mahal, Agra is also home to several other historical landmarks, including the Agra Fort, another UNESCO World Heritage Site. The Agra Fort was built in the 16th century by the Mughal emperor Akbar and is a beautiful example of Mughal architecture.",
       "category": "National",
-      "price": 4999
+      "price": "12"
     },
     {
       "id": 13,
@@ -94,9 +94,8 @@
       "description1": "Tokyo is the capital city of Japan, located on the eastern coast of the island of Honshu. With a population of over 13 million people, it is one of the largest and most vibrant cities in the world",
       "description2": "Tokyo is a food lover's paradise, with a wide range of cuisine on offer, from traditional Japanese dishes like sushi and ramen to international fare from around the world. The city is also famous for its shopping, with many world-renowned fashion brands and department stores located throughout the city.",
       "category": "InterNational",
-      "price": 18999
+      "price": "44444"
     },
-
     {
       "id": 4,
       "image": "https://www.holidify.com/images/tooltipImages/KOLKATA.jpg",
@@ -161,7 +160,6 @@
       "category": "InterNational",
       "price": 19999
     },
-
     {
       "id": 6,
       "image": "https://www.holidify.com/images/tooltipImages/KANYAKUMARI.jpg",
@@ -226,7 +224,6 @@
       "category": "National",
       "price": 9999
     },
-    
     {
       "id": 15,
       "image": "https://www.holidify.com/images/tooltipImages/CAMBODIA.jpg",
@@ -257,7 +254,7 @@
       "description1": "Ooty, also known as Udhagamandalam, is a picturesque hill station located in the southern state of Tamil Nadu, India. It is known for its scenic beauty, pleasant weather, and tea plantations.",
       "description2": "The city is also known for its beautiful gardens, including the Government Botanical Garden, which is home to several species of plants and flowers. Another popular garden in Ooty is the Rose Garden, which has over 20,000 varieties of roses.",
       "category": "National",
-      "price": 11999
+      "price": "23"
     },
     {
       "id": 18,
@@ -276,22 +273,6 @@
       "price": 15999
     },
     {
-      "id": 9,
-      "image": "https://www.holidify.com/images/cmsuploads/square/shiva-4029469_960_720_20190327185127.jpg",
-      "placeDescription": "One of the most famous attractions in Coimbatore is the Marudamalai Temple, a Hindu temple dedicated to Lord Murugan. The temple is located on a hill and offers stunning views of the surrounding landscape.",
-      "image2": "https://www.holidify.com/images/bgImages/COIMBATORE.jpg",
-      "image3": "https://www.holidify.com/images/compressed/dest_wiki_3208.jpg",
-      "image4": "https://www.holidify.com/images/cmsuploads/compressed/Pollachi_hilly_landsacpe_20190527164239.jpg",
-      "image5": "https://www.holidify.com/images/cmsuploads/compressed/1200px-PERUR_PATTEESHWARAR_TEMPLE_20181017194424_20181017194443_20190814123016.jpg",
-      "city": "Coimbatore",
-      "state": "Tamil Nadu",
-      "country": "India",
-      "description1": "Coimbatore, also known as Kovai, is a city located in the southern state of Tamil Nadu, India. It is known for its industrial and commercial growth, as well as its rich cultural heritage.",
-      "description2": "The city is also known for its textile industry, and visitors can shop for silk and cotton fabrics at the numerous markets and stores located throughout the city.",
-      "category": "National",
-      "price": 6999
-    },
-    {
       "id": 10,
       "image": "https://www.holidify.com/images/tooltipImages/SRINAGAR.jpg",
       "placeDescription": "Another popular attraction in Kashmir is the Mughal Gardens, a group of terraced gardens located in Srinagar. The gardens were built in the 16th and 17th centuries and feature beautiful fountains, water channels, and flowering plants.",
@@ -307,7 +288,6 @@
       "category": "National",
       "price": 15999
     },
-   
     {
       "id": 19,
       "image": "https://www.holidify.com/images/compressed/dest_pixa_12554.jpg",
@@ -323,6 +303,70 @@
       "description2": "Overall, Las Vegas is a dynamic and exciting city that offers visitors a unique blend of luxury, entertainment, and natural beauty. With its world-class casinos, extravagant resorts, and wide range of attractions, Las Vegas is a must-visit destination for anyone traveling to the United States",
       "category": "InterNational",
       "price": 17999
+    },
+    {
+      "id": 21,
+      "image": "https://www.holidify.com/images/cmsuploads/square/shiva-4029469_960_720_20190327185127.jpg",
+      "placeDescription": "One of the most famous attractions in Coimbatore is the Marudamalai Temple, a Hindu temple dedicated to Lord Murugan. The temple is located on a hill and offers stunning views of the surrounding landscape.",
+      "image2": "https://www.holidify.com/images/bgImages/COIMBATORE.jpg",
+      "image3": "https://www.holidify.com/images/compressed/dest_wiki_3208.jpg",
+      "image4": "https://www.holidify.com/images/cmsuploads/compressed/Pollachi_hilly_landsacpe_20190527164239.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/compressed/1200px-PERUR_PATTEESHWARAR_TEMPLE_20181017194424_20181017194443_20190814123016.jpg",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "description1": "Coimbatore, also known as Kovai, is a city located in the southern state of Tamil Nadu, India. It is known for its industrial and commercial growth, as well as its rich cultural heritage.",
+      "description2": "The city is also known for its textile industry, and visitors can shop for silk and cotton fabrics at the numerous markets and stores located throughout the city.",
+      "category": "National",
+      "price": "555"
+    },
+    {
+      "id": 22,
+      "image": "https://www.holidify.com/images/cmsuploads/square/shiva-4029469_960_720_20190327185127.jpg",
+      "placeDescription": "One of the most famous attractions in Coimbatore is the Marudamalai Temple, a Hindu temple dedicated to Lord Murugan. The temple is located on a hill and offers stunning views of the surrounding landscape.",
+      "image2": "https://www.holidify.com/images/bgImages/COIMBATORE.jpg",
+      "image3": "https://www.holidify.com/images/compressed/dest_wiki_3208.jpg",
+      "image4": "https://www.holidify.com/images/cmsuploads/compressed/Pollachi_hilly_landsacpe_20190527164239.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/compressed/1200px-PERUR_PATTEESHWARAR_TEMPLE_20181017194424_20181017194443_20190814123016.jpg",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "description1": "Coimbatore, also known as Kovai, is a city located in the southern state of Tamil Nadu, India. It is known for its industrial and commercial growth, as well as its rich cultural heritage.",
+      "description2": "The city is also known for its textile industry, and visitors can shop for silk and cotton fabrics at the numerous markets and stores located throughout the city.",
+      "category": "National",
+      "price": "555"
+    },
+    {
+      "id": 27,
+      "image": "https://www.holidify.com/images/compressed/dest_pixa_12554.jpg",
+      "placeDescription": "The city is famous for its vibrant nightlife, with many world-renowned casinos and resorts located along the famous Las Vegas Strip. Visitors can enjoy a wide range of entertainment options, including live music, comedy shows, magic performances, and Cirque du Soleil productions.",
+      "image2": "https://www.holidify.com/images/compressed/dest_pixa_12549.jpg",
+      "image3": "https://www.holidify.com/images/compressed/dest_pixa_12550.jpg",
+      "image4": "https://www.holidify.com/images/compressed/dest_pixa_12551.jpg",
+      "image5": "https://www.holidify.com/images/compressed/dest_pixa_12553.jpg",
+      "city": "Las Vegas",
+      "state": "North America",
+      "country": "United States",
+      "description1": "Las Vegas is a city located in the state of Nevada in the southwestern United States. It is often referred to as the Entertainment Capital of the World due to its numerous casinos, hotels, and entertainment venues.",
+      "description2": "Overall, Las Vegas is a dynamic and exciting city that offers visitors a unique blend of luxury, entertainment, and natural beauty. With its world-class casinos, extravagant resorts, and wide range of attractions, Las Vegas is a must-visit destination for anyone traveling to the United States",
+      "category": "InterNational",
+      "price": 17999
+    },
+    {
+      "image": "https://th.bing.com/th/id/OIP.wLABkwdNgHitiCyGif4t6gHaEo?pid=ImgDet&rs=1",
+      "placeDescription": "dsdsf",
+      "image2": "https://th.bing.com/th/id/OIP.wLABkwdNgHitiCyGif4t6gHaEo?pid=ImgDet&rs=1",
+      "image3": "https://th.bing.com/th/id/OIP.wLABkwdNgHitiCyGif4t6gHaEo?pid=ImgDet&rs=1",
+      "image4": "https://th.bing.com/th/id/OIP.wLABkwdNgHitiCyGif4t6gHaEo?pid=ImgDet&rs=1",
+      "image5": "https://th.bing.com/th/id/OIP.wLABkwdNgHitiCyGif4t6gHaEo?pid=ImgDet&rs=1",
+      "city": "london",
+      "state": "vd",
+      "country": "sfsf",
+      "description1": "fds",
+      "description2": "fsd",
+      "category": "InterNational",
+      "price": 232,
+      "id": 28
     }
   ],
   "register": [

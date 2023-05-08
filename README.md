@@ -75,3 +75,8 @@ GET /travel?q=goa
 GET /travel?q=InterNational
 ```
 ![search](https://user-images.githubusercontent.com/121368970/236736770-2561e66d-737a-45c0-baf4-134abe65e8d5.png)
+
+
+# Home Page
+![Home Page](https://user-images.githubusercontent.com/121368970/236737986-e27cfe27-1294-433f-973d-de8d3c217053.png)
+

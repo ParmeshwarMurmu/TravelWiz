@@ -1,5 +1,11 @@
 # imaginary-carpenter-5479
 # TravelWiz 
+### Objective
+
+The main objective of a traveling website is to provide valuable travel information, inspiration, and booking services to visitors. This includes helping travelers plan their trips by offering information on destinations, accommodations, activities, and local culture. The website should also aim to provide a seamless user experience and offer reliable and convenient booking services for flights, hotels, rental cars, and other travel-related services. Ultimately, the main objective of a traveling website is to enhance the overall travel experience for visitors and help them create unforgettable memories.
+
+# Netlify
+![image](https://github.com/ParmeshwarMurmu/imaginary-carpenter-5479/assets/121368970/9f0891a4-16b8-4669-9f77-b070fcd0859c)
 
 Please do NOT use VSCode live-server. It will not work. Use the npm commands suggested to you here.
 
@@ -87,4 +93,13 @@ GET /travel?q=InterNational
 
 # Destination Page
 ![designation page](https://user-images.githubusercontent.com/121368970/236739322-e25a55a4-61aa-4780-9588-a6be9aaf79ac.png)
+
+
+# Booking Page
+![Booking](https://github.com/ParmeshwarMurmu/imaginary-carpenter-5479/assets/121368970/147f2b05-c9dc-4182-8406-298d687e5f25)
+
+
+# Footer Section
+![footer](https://github.com/ParmeshwarMurmu/imaginary-carpenter-5479/assets/121368970/4e5f5705-61a4-4b2d-b8a4-171925a7634f)
+
 

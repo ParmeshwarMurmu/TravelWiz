@@ -1,38 +1,6 @@
 {
   "travel": [
     {
-      "id": 16,
-      "image": "https://www.holidify.com/images/cmsuploads/compressed/buildings-1839726_960_720_20200104125623.jpg",
-      "placeDescription": "Dubai is one of the most popular destinations in the UAE, famous for its iconic landmarks like the Burj Khalifa (the world's tallest building), the Palm Jumeirah (an artificial island), and the Dubai Mall (one of the largest shopping malls in the world). Visitors can also experience traditional Arabian culture by visiting the Dubai Museum or the Gold and Spice Souks.",
-      "image2": "https://www.holidify.com/images/cmsuploads/compressed/Shawarma_8503517413_20200125112917.jpg",
-      "image3": "https://www.holidify.com/images/foreign/compressed/overview_1001.jpg",
-      "image4": "https://www.holidify.com/images/foreign/compressed/overview_1003.jpg",
-      "image5": "https://www.holidify.com/images/cmsuploads/compressed/Sheikh_Zayed_Bridge_2_20200128164205.jpg",
-      "city": "UAE",
-      "state": "Asia",
-      "country": "Middle East",
-      "description1": "The United Arab Emirates (UAE) is a country located in the Middle East, consisting of seven emirates: Abu Dhabi, Dubai, Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah, and Fujairah. The country is known for its modern cities, stunning architecture, luxurious shopping malls, and beautiful beaches.",
-      "description2": "Abu Dhabi, the capital of the UAE, is another popular destination that offers a blend of modern and traditional culture. Visitors can explore the Sheikh Zayed Grand Mosque, the Emirates Palace, and the Qasr Al Hosn fortress, which is the oldest stone building in Abu Dhabi.",
-      "category": "InterNational",
-      "price": "233"
-    },
-    {
-      "id": 1,
-      "image": "https://www.holidify.com/images/cmsuploads/square/shutterstock_1349545253_20190715095335.jpg",
-      "placeDescription": "The city is known for its magnificent palaces, temples, and forts, including the famous City Palace, which is a stunning blend of Rajasthani and Mughal architecture. The palace houses several museums showcasing the history and culture of the region.",
-      "image2": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1349545253_20190715095335.jpg",
-      "image3": "https://www.holidify.com/images/cmsuploads/compressed/110_20190710185439.jpg",
-      "image4": "https://www.holidify.com/images/bgImages/UDAIPUR.jpg",
-      "image5": "https://www.holidify.com/images/compressed/3140.jpg",
-      "city": "UdaiPur",
-      "state": "Rajasthan",
-      "country": "India",
-      "description1": "Udaipur is a city located in the western Indian state of Rajasthan, also known as the City of Lakes or the Venice of the East. It is a popular tourist destination famous for its rich cultural heritage, stunning architecture, beautiful lakes, and scenic landscapes.",
-      "description2": "The city was founded in 1559 by Maharana Udai Singh II, and it served as the capital of the Mewar kingdom. Udaipur is surrounded by the Aravalli Mountains and is situated on the banks of Lake Pichola, which is one of the most picturesque lakes in Rajasthan.",
-      "category": "National",
-      "price": "2334"
-    },
-    {
       "id": 2,
       "image": "https://www.holidify.com/images/tooltipImages/AGRA.jpg",
       "placeDescription": "The most famous attraction in Agra is the Taj Mahal, a UNESCO World Heritage Site and one of the most recognizable structures in the world. The Taj Mahal was built in the 17th century by the Mughal emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, and it is considered to be one of the greatest examples of Mughal architecture.",
@@ -351,21 +319,137 @@
       "description2": "Overall, Las Vegas is a dynamic and exciting city that offers visitors a unique blend of luxury, entertainment, and natural beauty. With its world-class casinos, extravagant resorts, and wide range of attractions, Las Vegas is a must-visit destination for anyone traveling to the United States",
       "category": "InterNational",
       "price": 17999
+    },
+    {
+      "image": "https://www.holidify.com/images/cmsuploads/square/shutterstock_1349545253_20190715095335.jpg",
+      "placeDescription": "xyz",
+      "image2": "https://www.holidify.com/images/cmsuploads/square/shutterstock_1349545253_20190715095335.jpg",
+      "image3": "https://www.holidify.com/images/cmsuploads/square/shutterstock_1349545253_20190715095335.jpg",
+      "image4": "https://www.holidify.com/images/cmsuploads/square/shutterstock_1349545253_20190715095335.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/square/shutterstock_1349545253_20190715095335.jpg",
+      "city": "xyz",
+      "state": "zyx",
+      "country": "dfdsf",
+      "description1": "sdfd",
+      "description2": "sdfsd",
+      "category": "International",
+      "price": 2345,
+      "id": 28
+    },
+    {
+      "image": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "placeDescription": "fgg",
+      "image2": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image3": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image4": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "city": "gse",
+      "state": "seg",
+      "country": "seg",
+      "description1": "esg",
+      "description2": "sdg",
+      "category": "gs",
+      "price": 3344,
+      "id": 29
+    },
+    {
+      "image": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "placeDescription": "fdsf",
+      "image2": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image3": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image4": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "city": "eresrt",
+      "state": "ert",
+      "country": "ret",
+      "description1": "tre",
+      "description2": "ert",
+      "category": "InterNational",
+      "price": 44444,
+      "id": 30
+    },
+    {
+      "image": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "placeDescription": "gfdg",
+      "image2": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image3": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image4": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "city": "gsdfg",
+      "state": "gdsg",
+      "country": "dgd",
+      "description1": "gf",
+      "description2": "fgdg",
+      "category": "National",
+      "price": 5667,
+      "id": 31
+    },
+    {
+      "image": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "placeDescription": "fgdg",
+      "image2": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image3": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image4": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image5": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "city": "ewe",
+      "state": "wrer",
+      "country": "erf",
+      "description1": "efw",
+      "description2": "awf",
+      "category": "InterNation",
+      "price": 22222,
+      "id": 32
+    },
+    {
+      "image": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "placeDescription": "fdsf",
+      "image2": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image3": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image4": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_126333494_20191021163150.jpg",
+      "image5": "",
+      "city": "dfdf",
+      "state": "fedf",
+      "country": "sdfsd",
+      "description1": "sdf",
+      "description2": "sdf",
+      "category": "InterNational",
+      "price": 9999,
+      "id": 33
+    },
+    {
+      "image": "https://us06web.zoom.us/j/86527193042",
+      "placeDescription": "fdf",
+      "image2": "fdsf",
+      "image3": "sdfds",
+      "image4": "fdf",
+      "image5": "sdf",
+      "city": "dsf",
+      "state": "sfd",
+      "country": "s",
+      "description1": "sfsf",
+      "description2": "f",
+      "category": "InterNational",
+      "price": 555,
+      "id": 34
+    },
+    {
+      "image": "https://www.holidify.com/images/foreign/compressed/overview_1622.jpg",
+      "placeDescription": "fdfsdf",
+      "image2": "https://www.holidify.com/images/foreign/compressed/overview_1622.jpg",
+      "image3": "https://www.holidify.com/images/foreign/compressed/overview_1622.jpg",
+      "image4": "https://www.holidify.com/images/foreign/compressed/overview_1622.jpg",
+      "image5": "https://www.holidify.com/images/foreign/compressed/overview_1622.jpg",
+      "city": "Jamshedpur",
+      "state": "Jharkhand",
+      "country": "India",
+      "description1": "gfgdg",
+      "description2": "sf",
+      "category": "InterNational",
+      "price": 6666,
+      "id": 35
     }
   ],
   "register": [
-    {
-      "id": 2,
-      "username": "Raj",
-      "password": "12345",
-      "email": "raj@gmail.com"
-    },
-    {
-      "id": 8,
-      "username": "Suresh",
-      "password": "9934",
-      "email": "suresh@gmail.com"
-    },
     {
       "id": 12,
       "username": "Anjali",
@@ -395,6 +479,36 @@
       "password": "123",
       "email": "sj12345@gmail.com",
       "id": 18
+    },
+    {
+      "username": "murmuparmeshwar05@gmail.com",
+      "password": "1234",
+      "email": "murmuparmeshwar05@gmail.com",
+      "id": 19
+    },
+    {
+      "username": "AA",
+      "password": "zxc",
+      "email": "a@gmail.com",
+      "id": 20
+    },
+    {
+      "username": "Masai",
+      "password": "mlp",
+      "email": "masai@gmail.com",
+      "id": 21
+    },
+    {
+      "username": "ram",
+      "password": "123",
+      "email": "ram@gmail.com",
+      "id": 22
+    },
+    {
+      "username": "ABC",
+      "password": "zxc",
+      "email": "abc@gmail.com",
+      "id": 23
     }
   ]
 }

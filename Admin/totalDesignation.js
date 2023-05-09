@@ -4,8 +4,8 @@ let tbody = document.querySelector("tbody");
 let pagination = document.querySelector(".pagination");
 
 // search
-let searchButton = document.getElementById("searchButton");
-let searchText = document.getElementById("searchText");
+let searchButton = document.getElementById("searchBtn");
+let searchText = document.getElementById("searchWords");
 
 let updatePriceDiv = document.getElementsByClassName("updatePriceDiv");
 let editPriceInput = document.getElementById("editPriceInput");
@@ -54,15 +54,8 @@ function fetchingData(pageNumber){
     })
     .then((data)=>{
         // console.group(data)
-        appendData(data, pageNumber)
-        
-
-
+        appendData(data, pageNumber);
     })
-    .then((data) => {
-      console.group(data);
-      appendData(data);
-    });
 }
 
 function getBtn(i) {
@@ -79,55 +72,11 @@ function getBtn(i) {
 }
 
 
-
-
-
-function getBtn(i){
-    let btn = document.createElement("button");
-    btn.classList.add("paginationBtn");
-    btn.innerText = i;
-    btn.setAttribute("data-id", i);
-    
-    btn.addEventListener("click", (e)=>{
-        // console.log(e.target.dataset.id);
-        fetchingData(e.target.dataset.id)
-    })
-    return btn;
-}
-
-function getCard(image, placeDescription, price, category, city) {
-  let div = document.createElement("div");
-  div.classList.add("card-body");
-  // let tr = document.createElement("tr");
-
-  // let td1 = document.createElement("td");
-  let imgDiv = document.createElement("div");
-  imgDiv.classList.add("image-div");
-
-  let img = document.createElement("img");
-  img.setAttribute("src", image);
-  imgDiv.append(img);
-  // td1.append(imgDiv)
-
-  // let td2 = document.createElement("td");
-  let paraDiv = document.createElement("div");
-  paraDiv.classList.add("paraDiv");
-  let para = document.createElement("p");
-  para.classList.add("para-description");
-  para.innerText = placeDescription;
-  paraDiv.append(para);
-
-  // td2.append(para);
-
-
 function appendData(data, pageNumber)
 {
     console.log(data, "+++")
-    // data.rev
-    // console.log(data)
     desiBody.innerHTML = "";
     data.forEach(ele => {
-        // console.log(ele);
         desiBody.append(getCard(ele["image"], ele["placeDescription"], ele["price"], ele["category"], ele["city"], ele["id"], pageNumber))
     });
 }
@@ -239,17 +188,18 @@ function getCard(image, placeDescription, price, category, city, id, pageNumber)
     return div;
 }
 
-let cardBody = document.getElementById("card-body");
-cardBody.classList.add("invisible1");
+// let cardBody = document.getElementById("card-body");
+// cardBody.classList.add("invisible1");
+
 
 
 searchButton.addEventListener("click", ()=>{
     let query = searchText.value;
-    console.log(query)
+    console.log(query, "+++")
     fetch(`${url}?q=${query}`)
     .then((res)=> res.json())
     .then((data)=>{
-        // console.log(data, "QQQQ")
+        console.log(data, "QQQQ")
         appendData(data)
     })
 })

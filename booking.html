@@ -212,7 +212,9 @@
       btn1.textContent = "Book Now";
 
       btn1.addEventListener("click", () => {
-        userBookedId.push(item.id);
+        localStorage.setItem("userBookedId", item.id);
+        // userBookedId.push(item.id);
+        window.location.href = "payment.html";
       });
 
       let btn2 = document.createElement("button");

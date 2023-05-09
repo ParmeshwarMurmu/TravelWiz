@@ -1,0 +1,258 @@
+header{
+
+    width: 100vw;
+    min-height: 100vh;
+    /* background: #34495E; */
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background:rgb(241, 239, 239);
+    max-width: 800px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 1.5rem;
+}
+.left{
+    flex-basis: 30%;
+   
+}
+.right{
+    flex-basis: 30%;
+}
+
+form{
+
+    padding: 1rem;
+}
+
+form input[type="text"]{
+
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0;
+    outline: none;
+}
+
+#Pin-code{
+
+    display: flex;
+    margin-top: 0.5rem;
+}
+.sec{
+
+    margin-left: 10px;
+}
+#Pin-code select{
+    padding: 0.5rem 0.7rem;
+   
+}
+#Pin-code input[type="number"]{
+
+    padding: 0.5rem 0.7rem;
+    
+}
+.right img{
+       width: 100%;
+       height: 45px;
+}
+
+ .btn{
+
+    width: 100%;
+    padding: 0.7rem 1.5rem;
+    background: green;
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 2.2rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 770px){
+
+    .container{
+
+        flex-direction: column;
+    }
+    
+}
+
+
+
+/* Estilos esteticos no necesarios */ 
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.text {
+    font-size: 1rem;
+}
+
+.text span:last-child {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.block {
+    display: block;
+}
+
+       /* Global styles */
+       * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0;
+        margin-top: 150px;
+      
+        font-family: Arial, sans-serif;
+        background-color: #f6f6f6;
+        color: #333;
+      
+        /* background-color: rgb(117, 240, 117); */
+        
+        background-image: url('https://img.freepik.com/free-photo/abstract-blur-supermarket-retail-store_74190-7546.jpg?size=626&ext=jpg&ga=GA1.2.1457312229.1676739744&semt=ais');
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+      
+      
+        
+          /* width:100vw;
+          height:100vh;
+          background-image: linear-gradient(rgba(237, 244, 239, 0.8),rgba(233, 238, 235, 0.8)),url(/Images/payment.jpg);
+          background-position: center;
+          background-size: cover;
+          position:relative; */
+        
+      }
+      
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      
+      }
+      
+      header h3 {
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #333;
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      input[type="text"],
+      input[type="number"],
+      select {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        color: #333;
+        font-size: 16px;
+      }
+      
+      input[type="text"]:focus,
+      input[type="number"]:focus,
+      select:focus {
+        outline: none;
+        box-shadow: 0 0 2px 2px #0077cc;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+      }
+      
+      #Pin-code {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      #Pin-code label {
+        width: 50%;
+      }
+      
+      .sec {
+        width: 45%;
+      }
+      
+      .btn {
+        background-color: #0077cc;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 15px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+      
+      .btn:hover {
+        background-color: #005ea3;
+      }
+      
+      header .left {
+        width: 60%;
+      }
+      
+      header .right {
+        width: 40%;
+      }
+      
+      header img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+      
+      /* Responsive styles */
+      @media screen and (max-width: 768px) {
+        header {
+          flex-direction: column;
+        }
+      
+        header .left,
+        header .right {
+          width: 100%;
+        }
+      }

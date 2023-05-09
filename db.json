@@ -383,6 +383,18 @@
       "username": "Annaya",
       "password": "9934",
       "email": "annaya@gmail.com"
+    },
+    {
+      "username": "chandan",
+      "password": "123",
+      "email": "cs95335@gmail.com",
+      "id": 17
+    },
+    {
+      "username": "sanjay parmeshwar",
+      "password": "123",
+      "email": "sj12345@gmail.com",
+      "id": 18
     }
   ]
 }

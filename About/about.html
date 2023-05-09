@@ -4,88 +4,112 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Product Page</title>
-    <link rel="stylesheet" href="./Css Travel/Travel.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper1">
       <!-- Header -->
       <div class="navbar">
         <div class="logo">
-          <a href="./index.html"
-            ><img src="./Css Travel/1-removebg-preview.png" alt=""
-          /></a>
+          <a href="/index.html"><img src="1-removebg-preview.png" alt="" /></a>
         </div>
         <label for="ham-menu" class="ham-menu-bar">
           <i class="fa fa-bars"></i>
         </label>
         <input type="checkbox" id="ham-menu" autocomplete="off" />
         <ul>
-          <li><a href="./Travel.html">Destination</a></li>
-          <li><a href="./booking.html">Booking</a></li>
-          <li><a href="./About/about.html">About Us</a></li>
+          <li><a href="/Travel.html">Destination</a></li>
+          <li><a href="/booking.html">Booking</a></li>
+          <li><a href="./about.html">About Us</a></li>
           <li>
-            <a href="login.html"><p id="username">Log In</p></a>
+            <a href="/login.html"><p id="username">Log In</p></a>
           </li>
-          <li><a href="./Admin/adminLogin.html">Admin</a></li>
+          <li><a href="/Admin/adminLogin.html">Admin</a></li>
         </ul>
       </div>
     </div>
-    <div class="wholepage">
-      <div class="container">
-        <div class="column">
-          <h1>TravelWiz Destiny</h1>
-          <p>
-            Find Your Perfect Destination The Ultimate Guide To Your Dream
-            Destination
-          </p>
-          <div class="search-box">
-            <input type="text" placeholder=" Search Destiny..." id="tsearch" />
-            <button id="btns"><p>🔎</p></button>
-          </div>
-        </div>
-      </div>
-      <div class="mainsection">
-        <div class="row">
-          <div class="columnSidebar" id="Sidebar">
-            <h4>Sort Based On Price</h4>
-            <button id="lth" class="sort">Sort Low To High</button>
-            <hr />
-            <button id="htl" class="sort">Sort High To Low</button>
+    <header class="head">
+      <div class="head1">
+        <h1>
 
-            <h4 id="flt">Filter Based On Location</h4>
-            <button id="filter-National-tours" class="filter">
-              National Tours
-            </button>
-            <hr />
-            <button id="filter-International-tours" class="filter">
-              International Tours
-            </button>
-          </div>
+
+          Choose TravelWiz & Get Wide <br> Range Of Travel Benefits
+        </h1>
+      </div>
+    </header>
+  </hr>
+    <section class="container-boxes">
+      <div class="box">
+        <div class="icon">
+          <a href=""><i class="fas fa-book"></i></a>
         </div>
-        <div class="columnMain">
-          <div class="data-list-wrapper" id="data-list-wrapper">
-            <!-- here data should append -->
-          </div>
+        <div class="text">
+          <a href="">
+            <h3>Book Now</h3>
+            <p>Book Now And Fly Around The World With Qatar Airways.</p>
+          </a>
         </div>
       </div>
-      <div class="pagination-wrapper" id="pagination-wrapper"></div>
+      <div class="box">
+        <div class="icon">
+          <a href=""><i class="fa-solid fa-plane-departure"></i></a>
+        </div>
+        <div class="text">
+          <a href="">
+            <h3>Travel</h3>
+            <p>Travel With Us And Explore The World Of Adventures.</p>
+          </a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="icon">
+          <a href=""><i class="fas fa-address-card"></i></a>
+        </div>
+        <div class="text">
+          <a href="">
+            <h3>Teams</h3>
+            <p>Become a member,become family.Teamwork is everything.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Slider -->
+    <div class="wrapper">
+      <div class="testimonial-container" id="testimonial-container"></div>
+      <button id="prev">&lt;</button>
+      <button id="next">&gt;</button>
     </div>
+    <!-- Footer -->
     <div class="Footer">
       <!--Top Footer-->
       <div class="footer_top">
         <div class="call">
+          
           <img src="1-removebg-preview.png" alt="" />
 
           <h1>TravelWiz</h1>
@@ -94,6 +118,7 @@
           <i class="fa-solid fa-envelope"></i>
           travelWiz@gmail.com
         </div>
+        
       </div>
 
       <hr />
@@ -118,6 +143,8 @@
           <li>Sitemap</li>
         </div>
 
+        
+
         <div class="Resources">
           <h3>Resources</h3>
           <li>Blog</li>
@@ -138,6 +165,7 @@
         </div>
       </div>
     </div>
+    <!-- Script -->
+    <script src="script.js"></script>
   </body>
-  <script src="./scripts/Travel.js"></script>
 </html>

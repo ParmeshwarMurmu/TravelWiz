@@ -51,6 +51,9 @@ GET /travel?_page=3
 GET /travel?_limit=5&_page=3
 ```
 
+![Pagination](https://user-images.githubusercontent.com/121368970/236737298-1748005d-2c41-4712-9222-bfe61bbc8b4a.png)
+
+
 
 ## Sort
 Add ```_sort And ```_order```(Ascending Order By Default)
@@ -71,3 +74,17 @@ GET /travel?q=paris
 GET /travel?q=goa
 GET /travel?q=InterNational
 ```
+![search](https://user-images.githubusercontent.com/121368970/236736770-2561e66d-737a-45c0-baf4-134abe65e8d5.png)
+
+
+# Home Page
+![Home Page](https://user-images.githubusercontent.com/121368970/236737986-e27cfe27-1294-433f-973d-de8d3c217053.png)
+
+# Sign Up and Login
+![sign up](https://user-images.githubusercontent.com/121368970/236738769-e28ebf0e-3394-44a2-a13d-20614f3ee36d.png)
+![login page](https://user-images.githubusercontent.com/121368970/236738809-5a022269-fde5-4249-9145-74e88c75c4db.png)
+
+
+# Destination Page
+![designation page](https://user-images.githubusercontent.com/121368970/236739322-e25a55a4-61aa-4780-9588-a6be9aaf79ac.png)
+

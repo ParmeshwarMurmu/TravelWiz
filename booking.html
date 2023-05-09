@@ -4,81 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      .parentBooking {
-        border: 1px solid black;
-        display: flex;
-        padding: 10px;
-        width: 80%;
-        margin: auto;
-      }
-      .sidedesc {
-        border: 1px solid red;
-        width: 30%;
-      }
-
-      .mainsectionb {
-        border: 1px solid green;
-
-        width: 65%;
-      }
-      .card-image2 > img {
-        width: 60%;
-      }
-
-      .img-parent {
-        border: 1px solid red;
-        display: flex;
-      }
-
-      .img-parent > div {
-        margin: 10px;
-      }
-
-      .img-parent > div:hover {
-        transform: scale(1.2);
-      }
-
-      .img-s1 {
-        width: 15%;
-        border: 2px solid rgb(12, 247, 255);
-      }
-
-      .img-s1 > img {
-        width: 100%;
-      }
-
-      .img-s2 {
-        width: 15%;
-      }
-
-      .img-s2 > img {
-        width: 100%;
-      }
-
-      .img-s3 {
-        width: 15%;
-
-        border: 2px solid rgb(12, 247, 255);
-      }
-
-      .img-s3 > img {
-        width: 100%;
-      }
-
-      .img-s4 {
-        width: 15%;
-
-        border: 2px solid rgb(12, 247, 255);
-      }
-
-      .img-s4 > img {
-        width: 100%;
-      }
-    </style>
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="./booking.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- foter -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
   </head>
   <body>
+    <div class="wrapper">
+      <!-- Header -->
+      <div class="navbar">
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./Css Travel/1-removebg-preview.png" alt=""
+          /></a>
+        </div>
+        <label for="ham-menu" class="ham-menu-bar">
+          <i class="fa fa-bars"></i>
+        </label>
+        <input type="checkbox" id="ham-menu" autocomplete="off" />
+        <ul>
+          <li><a href="./Travel.html">Destination</a></li>
+          <li><a href="./booking.html">Booking</a></li>
+          <li><a href="./About/about.html">About Us</a></li>
+          <li>
+            <a href="./login.html"><p id="username">Log In</p></a>
+          </li>
+          <li><a href="./Admin/adminLogin.html">Admin</a></li>
+        </ul>
+      </div>
+    </div>
     <div class="bookingHead">
       <h1>Explore Recomended Top Destinations</h1>
     </div>
@@ -86,6 +64,63 @@
     <div class="parentBooking">
       <div class="sidedesc"></div>
       <div class="mainsectionb"></div>
+    </div>
+    <!-- Footer -->
+    <div class="Footer">
+      <!--Top Footer-->
+      <div class="footer_top">
+        <div class="call">
+          <img src="1-removebg-preview.png" alt="" />
+
+          <h1>TravelWiz</h1>
+        </div>
+        <div class="email">
+          <i class="fa-solid fa-envelope"></i>
+          travelWiz@gmail.com
+        </div>
+      </div>
+
+      <hr />
+
+      <!--middle footer-->
+      <div class="Middle_Footer">
+        <div class="Subscribe">
+          <h3>Subscribe To Know Us Better</h3>
+
+          <div class="seachbox">
+            <input type="email" placeholder="your@gmail.com" />
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+
+          <p>Get Digital Knowledge Of Places And Updates in your Mailbox</p>
+        </div>
+        <div class="About">
+          <h3>About</h3>
+          <li>Our Story</li>
+          <li>Careers</li>
+
+          <li>Sitemap</li>
+        </div>
+
+        <div class="Resources">
+          <h3>Resources</h3>
+          <li>Blog</li>
+          <li>Contact Us</li>
+          <li>travelWiz@gmail.com</li>
+        </div>
+      </div>
+
+      <!--Bottom Footer-->
+      <div class="footer_bottom">
+        <img src="1-removebg-preview.png" alt="" />
+        <p>All Rights Reserved For TravelWiz</p>
+        <div class="SocialMedia">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
     </div>
   </body>
   <script>
@@ -115,23 +150,50 @@
       let sideCard = document.createElement("div");
       sideCard.className = "side-card";
 
+      let sideh2 = document.createElement("h2");
+      sideh2.className = "headts";
+      sideh2.textContent = "TravelWiz Destiny Tour";
+
       let sCountry = document.createElement("h4");
       sCountry.className = "side-country";
-      sCountry.textContent = ele.country;
+      sCountry.textContent = `COUNTRY : ${ele.country}`;
 
       let sState = document.createElement("h5");
       sState.className = "side-country";
-      sState.textContent = ele.state;
+      sState.textContent = `STATE: ${ele.state}`;
 
       let sDesc1 = document.createElement("p");
       sDesc1.className = "side-desc1";
-      sDesc1.textContent = ele.description1;
+      sDesc1.textContent = `ABOUT THE PLACE: ${ele.description1}`;
+
+      let hr = document.createElement("hr");
 
       let sDesc2 = document.createElement("p");
       sDesc2.className = "side-desc2";
-      sDesc2.textContent = ele.description2;
+      sDesc2.textContent = `KNOW SOME GLIMPS: ${ele.description2}`;
 
-      sideCard.append(sCountry, sState, sDesc1, sDesc2);
+      let hr1 = document.createElement("hr");
+
+      let pckprice = document.createElement("h3");
+      pckprice.className = "sPrice";
+      pckprice.textContent = `Package Start At: ₹${ele.price}`;
+
+      let pdet = document.createElement("p");
+      pdet.className = "det-p";
+      pdet.textContent =
+        "Includes Personal Guide Tour X TravelWiz Partner tour Package X  Suits X Airgo";
+
+      sideCard.append(
+        sideh2,
+        sCountry,
+        sState,
+        sDesc1,
+        hr,
+        sDesc2,
+        hr1,
+        pckprice,
+        pdet
+      );
       sidedesc.append(sideCard);
     }
     function createCard(item) {
@@ -156,6 +218,10 @@
       let btn2 = document.createElement("button");
       btn2.className = "button-details";
       btn2.textContent = "View Details";
+
+      let btndiv = document.createElement("div");
+      btndiv.className = "btnall";
+      btndiv.append(btn1, btn2);
 
       let imgDiv = document.createElement("div");
       imgDiv.className = "card-image2";
@@ -213,7 +279,7 @@
 
       divImgP.append(divImgs1, divImgs2, divImgs3, divImgs4);
 
-      card.append(h3, para, btn1, btn2, imgDiv, divImgP);
+      card.append(h3, para, imgDiv, btndiv, divImgP);
       mainsectionb.append(card);
     }
   </script>

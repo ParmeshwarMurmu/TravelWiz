@@ -1,65 +1,58 @@
 let checkOut = document.querySelector(".btn");
-let digits='12345abcdfgh'
+let digits = "12345abcdfgh";
 
-let otp=''
+let otp = "";
 
-genOtp()
+genOtp();
 function genOtp() {
-  otp=''
+  otp = "";
   for (let i = 0; i < 4; i++) {
-    otp+=digits[Math.floor(Math.random()*10)]
+    otp += digits[Math.floor(Math.random() * 10)];
   }
-  console.log(otp)
+  console.log(otp);
 }
 
 checkOut.addEventListener("click", (e) => {
-  e.preventDefault()
-  check = prompt(`Enter Otp.  ${otp}`)
-  if(check==otp){
-    alert("Thankyou for shopping.")
+  e.preventDefault();
+  check = prompt(`Enter Otp.  ${otp}`);
+  if (check == otp) {
+    alert("Thankyou for Choosing TravelWiz.");
     window.location.href = "index.html";
-    genOtp()
-  }else{
-    alert("Otp incorrect")
-    genOtp()
+    genOtp();
+  } else {
+    alert("Otp incorrect");
+    genOtp();
   }
-  console.log(check)
-})
-///////////////////////////////////////////////// saving data in local storage 
+  console.log(check);
+});
+///////////////////////////////////////////////// saving data in local storage
 
+const storedData =
+  JSON.parse(localStorage.getItem("billingDetailsArray")) || [];
 
-const storedData = JSON.parse(localStorage.getItem('billingDetailsArray')) || [];
+const form = document.querySelector("form");
+const proceedToPaymentBtn = document.querySelector(".btn");
 
-const form = document.querySelector('form');
-const proceedToPaymentBtn = document.querySelector('.btn');
-
-proceedToPaymentBtn.addEventListener('click', function(event) {
+proceedToPaymentBtn.addEventListener("click", function (event) {
   event.preventDefault();
-  
+
   // Get form data
-  
-  let name= document.getElementById("name").value
-  let email= document.getElementById("email").value
-  let address= document.getElementById("address").value
-  let city= document.getElementById("city").value
-  let staus= document.createElement("h3")
- 
+
+  let name = document.getElementById("name").value;
+  let email = document.getElementById("email").value;
+  let address = document.getElementById("address").value;
+  let city = document.getElementById("city").value;
+  let staus = document.createElement("h3");
 
   // Create an object with the form data
   let billingDetails = { name, email, address, city };
-    storedData.push(billingDetails);
+  storedData.push(billingDetails);
 
   // Save the form data in local storage
-  localStorage.setItem('billingDetailsArray', JSON.stringify(storedData));
+  localStorage.setItem("billingDetailsArray", JSON.stringify(storedData));
 
-  
-  console.log(storedData)
+  console.log(storedData);
 });
-
-
-
-
-
 
 // // Get any existing data from local storage
 // const storedData = JSON.parse(localStorage.getItem('billingDetailsArray')) || [];
@@ -70,5 +63,3 @@ proceedToPaymentBtn.addEventListener('click', function(event) {
 
 // // Save the updated array in local storage
 // localStorage.setItem('billingDetailsArray', JSON.stringify(storedData));
-
-

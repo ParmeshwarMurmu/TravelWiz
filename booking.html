@@ -129,7 +129,7 @@
 
     let bookurl = "http://localhost:3000/travel";
     let id = localStorage.getItem("travel-id");
-    let userBookedId = JSON.parse(localStorage.getItem("userBookedId"));
+    let userBookedId = localStorage.getItem("userBookedId");
     console.log(id);
     function fetchData() {
       fetch(`${bookurl}/${id}`)

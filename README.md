@@ -2,7 +2,7 @@
 # TravelWiz 
 ### Objective
 
-The main objective of a traveling website is to provide valuable travel information, inspiration, and booking services to visitors. This includes helping travelers plan their trips by offering information on destinations, accommodations, activities, and local culture. The website should also aim to provide a seamless user experience and offer reliable and convenient booking services for flights, hotels, rental cars, and other travel-related services. Ultimately, the main objective of a traveling website is to enhance the overall travel experience for visitors and help them create unforgettable memories.
+The main objective of a traveling website is to provide valuable travel information, inspiration, and booking services to visitors. This includes helping travelers plan their trips by offering information on destinations, accommodations, activities, and local culture. The website should also aim to provide a seamless user experience and offer reliable and convenient booking services for your destination. Ultimately, the main objective of a traveling website is to enhance the overall travel experience for visitors and help them create unforgettable memories.
 
 # Netlify
 https://heartfelt-puffpuff-9f02e4.netlify.app/

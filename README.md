@@ -5,7 +5,7 @@
 The main objective of a traveling website is to provide valuable travel information, inspiration, and booking services to visitors. This includes helping travelers plan their trips by offering information on destinations, accommodations, activities, and local culture. The website should also aim to provide a seamless user experience and offer reliable and convenient booking services for your destination. Ultimately, the main objective of a traveling website is to enhance the overall travel experience for visitors and help them create unforgettable memories.
 
 # Netlify
-https://heartfelt-puffpuff-9f02e4.netlify.app/
+https://655990867e367c673fd75d1d--fascinating-swan-4b5024.netlify.app/
 
 Please do NOT use VSCode live-server. It will not work. Use the npm commands suggested to you here.
 

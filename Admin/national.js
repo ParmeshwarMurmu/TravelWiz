@@ -27,7 +27,7 @@ let category = document.getElementById("category")
 let price = document.getElementById("price")
 let submit= document.getElementById("submit");
 
-let url = "http://localhost:3000/travel";
+let url = "https://mock-api-template-trn5.onrender.com/travel";
 
 // window.addEventListener("load", ()=>{
 // calcLen()

@@ -1,115 +1,4 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Login | By Code Info</title>
-    <link rel="stylesheet" href="login.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="login-box">
-      <h1>Login</h1>
-      <form>
-        <label>Email</label>
-        <input type="email" placeholder="" id="email" />
-        <label>Password</label>
-        <input type="password" placeholder="" id="password" />
-        <input type="submit" value="Submit" />
-        <closeform></closeform>
-      </form>
-      <p class="para-2" style="display: flex">
-        Not have an account? <a href="signup.html">Sign Up Here</a>
-      </p>
-    </div>
-  </body>
-  <script>
-    // let form = document.querySelector("form");
-    // let userData = JSON.parse(localStorage.getItem("users")) || [];
-    // let userss = JSON.parse(localStorage.getItem("use")) || [];
-    // // let email = document.getElementById("email")
-    // // let password = document.getElementById("password")
 
-    // let flag = false;
-    
-    // form.addEventListener("submit", function (e) {
-    //   e.preventDefault();
-    //   console.log("HELLo");
-    //   const url = "http://localhost:3000/register";
-    //   const email = form.email.value;
-    //   const psw = form.password.value;
-
-    //   fetch(url)
-    //     .then((res) => {
-    //       console.log(res);
-    //       return res.json();
-    //     })
-    //     .then((data) => {
-    //       console.log(data);
-    //       check(data, email, psw);
-    //     })
-    //     .catch((err) => {
-    //       console.log(err);
-    //     });
-
-    //   //   for (let i = 0; i < userData.length; i++) {
-    //   //     {
-    //   //       if (
-    //   //         form.email.value === userData[i].email &&
-    //   //         form.password.value === userData[i].password
-    //   //       ) {
-    //   //         flag = true;
-
-    //   //         used = userData[i];
-    //   //         localStorage.removeItem("use");
-    //   //         localStorage.setItem("use", JSON.stringify(used));
-    //   //         window.location.assign("index.html");
-    //   //         // window.history.go(-2);
-    //   //         break;
-    //   //       }
-    //   //     }
-    //   //   }
-    //   //   if (flag == false) alert("Please Fill The valid Input");
-    // });
-    // function check(data, email, psw) {
-    //   let flag = true;
-    //   data.forEach((user) => {
-    //     // uselogedin(
-    //     //   user.username,
-    //     //   user.email,
-    //     //   user.password,
-    //     //   user.id,
-    //     //   email,
-    //     //   psw
-    //     // );
-    //     if (user.email === email && user.password === psw) {
-    //       alert("Logged in Successfully");
-    //       localStorage.setItem("username", user.username);
-
-    //       window.location.href = "index.html";
-    //     } else {
-    //       flag = false;
-    //     }
-    //   });
-    //   if (flag === true) {
-    //     alert("Wrong Credentials");
-    //   }
-    // }
-    // function uselogedin(username, useremail, userpassword, userid, email, psw) {
-    //   if (useremail === email && userpassword === psw) {
-    //     alert("Logged in Successfully");
-    //     localStorage.setItem("username", username);
-    //     window.href.location = "index.html";
-    //   } else {
-    //     alert("Wrong Credentials");
-    //   }
-    // }
-
-
-
-  </script>
-</html> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -124,78 +13,28 @@
   <body>
     <div class="login-box">
       <h1>Login</h1>
+      <!-- <form>
+        <label>Email</label>
+        <input type="email" placeholder="Email" id="email" />
+        <label>Password</label>
+        <input type="password" placeholder="Password" id="password" />
+        <input id="submitBtn" type="submit" />
+        
+        
+      </form> -->
+
       <form>
         <label>Email</label>
-        <input type="email" placeholder="" id="email" />
+        <input type="email" placeholder="Email" id="email">
         <label>Password</label>
-        <input type="password" placeholder="" id="password" />
-        <input type="submit" value="Submit" />
-        <closeform></closeform>
+        <input type="password" placeholder="Password" id="password">
+        <input type="submit">
       </form>
       <p class="para-2" style="display: flex">
         Not have an account? <a href="signup.html">Sign Up Here</a>
       </p>
     </div>
   </body>
-  <script>
-    let form = document.querySelector("form");
-    let userData = JSON.parse(localStorage.getItem("users")) || [];
-    let userss = JSON.parse(localStorage.getItem("use")) || [];
-
-    let flag = false;
-
-    form.addEventListener("submit", function (e) {
-      e.preventDefault();
-      console.log("HELLo");
-      const url = "http://localhost:3000/register";
-      const email = form.email.value;
-      const psw = form.password.value;
-
-      fetch(url)
-        .then((res) => {
-          console.log(res);
-          return res.json();
-        })
-        .then((data) => {
-          console.log(data);
-          check(data, email, psw);
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    });
-    function check(data, email, psw) {
-      let flag = true;
-      data.forEach((user) => {
-        // uselogedin(
-        //   user.username,
-        //   user.email,
-        //   user.password,
-        //   user.id,
-        //   email,
-        //   psw
-        // );
-        if (user.email === email && user.password === psw) {
-          alert("Logged in Successfully");
-          localStorage.setItem("username", user.username);
-
-          window.location.href = "index.html";
-        } else {
-          flag = false;
-        }
-      });
-      if (flag === true) {
-        alert("Wrong Credentials");
-      }
-    }
-    function uselogedin(username, useremail, userpassword, userid, email, psw) {
-      if (useremail === email && userpassword === psw) {
-        alert("Logged in Successfully");
-        localStorage.setItem("username", username);
-        window.href.location = "index.html";
-      } else {
-        alert("Wrong Credentials");
-      }
-    }
-  </script>
 </html>
+
+<script src="./login.js"></script>

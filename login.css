@@ -56,6 +56,17 @@ form input {
   border-radius: 6px;
   outline: none;
 }
+
+#submit{
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #66d498;
+  color: white;
+  font-size: 18px;
+
+}
 input[type="submit"] {
   width: 320px;
   height: 35px;

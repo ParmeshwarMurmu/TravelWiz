@@ -2,7 +2,7 @@ let totalUser = document.getElementById("totalUser");
 let tbody = document.querySelector("tbody");
 let pagination = document.querySelector(".pagination")
 
-let url = "http://localhost:3000/";
+let url = "https://mock-api-template-trn5.onrender.com/";
 
 
 

@@ -1,4 +1,4 @@
-const TravelbaseUrl = `http://localhost:3000/travel`;
+const TravelbaseUrl = `https://mock-api-template-trn5.onrender.com/travel`;
 let mainSection = document.getElementById("data-list-wrapper");
 
 //sorting by price

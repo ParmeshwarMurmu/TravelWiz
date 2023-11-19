@@ -13,7 +13,7 @@ let updateBtn = document.getElementById("updateBtn");
 
 
 
-let url = "http://localhost:3000/travel";
+let url = "https://mock-api-template-trn5.onrender.com/travel";
 
 // window.addEventListener("load", ()=>{
 //     calcLen()

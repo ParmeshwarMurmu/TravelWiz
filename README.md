@@ -96,10 +96,10 @@ GET /travel?q=InterNational
 
 
 # Booking Page
-![Booking](https://github.com/ParmeshwarMurmu/imaginary-carpenter-5479/assets/121368970/147f2b05-c9dc-4182-8406-298d687e5f25)
+![TravelWiz Booking](https://github.com/ParmeshwarMurmu/TravelWiz/assets/121368970/8b400b5f-486e-403b-8bd5-92316536bd2b)
 
 
-# Footer Section
-![footer](https://github.com/ParmeshwarMurmu/imaginary-carpenter-5479/assets/121368970/4e5f5705-61a4-4b2d-b8a4-171925a7634f)
+
+
 
 
